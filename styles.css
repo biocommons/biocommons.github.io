@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+h1, h2, h3, h4 {
+    font-family: "Droid Serif",serif;
+    font-variant: small-caps;
+    color: gray;
+}
+
+h1 {
+    clear: both;
+    border-bottom: 2px solid gray;
+    margin-top: 20px;
+}
+
+dl {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+dt {
+    font-family: serif;
+}
+
+dd {
+    color: gray;
+    font-size: smaller;
+}
