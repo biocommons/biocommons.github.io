@@ -26,3 +26,18 @@ dd {
     color: gray;
     font-size: smaller;
 }
+
+/*
+span.count {
+    border: 1px solid gray;
+    background: 1px solid gray;
+    border-radius: 8px;
+    background: #777;
+    font-size: 90%;
+    color: #ddd;
+    position: relative;
+    padding: 1px;
+    left: -10px;
+    top: -10px
+}
+*/

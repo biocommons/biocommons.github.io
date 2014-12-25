@@ -5,11 +5,32 @@
     <title>biocommons</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <meta http-equiv="refresh" content="5">
   </head>
 
   <body>
     
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $.ajaxSetup ({
+          cache: false,
+          crossDomain: true
+        });
+      });
+      function stuff_nissues(repo_slug) {
+      	 var base_url = "https://api.bitbucket.org/1.0/repositories/biocommons"
+         $.ajax({
+           url: base_url + "/" + repo_slug + "/issues",
+           type: "GET",
+           data: "limit=0;status=new;status=open",
+           async: false,
+           dataType: 'JSONP',
+           contentType: "application/json",
+           success: function(response) {$("#nissues-"+repo_slug).text(response["count"])}
+         })
+      }
+    </script>
+    
+
     <h1>About</h1>
 
     <p>biocommons
@@ -41,7 +62,11 @@
       
       <dt>
 	<a href="https://bitbucket.org/biocommons/bioutils">bioutils</a>
-        [<a href="https://bitbucket.org/biocommons/bioutils/issues?status=new&status=open">Issues</a>]
+        [<a href="https://bitbucket.org/biocommons/bioutils/issues?status=new&status=open"><span class="count" id="nissues-bioutils"></span> Issues</a>]
+	<script type="text/javascript">
+	  $(document).ready(function () { stuff_nissues("bioutils") })
+	</script>
+		
       </dt>
       <dd>
 	<p>This package provides some simple tools and lookup tables used primarly by the hgvs and uta packages.</p>
@@ -49,7 +74,11 @@
       
       <dt>
 	<a href="https://bitbucket.org/biocommons/eutils">eutils</a>
-        [<a href="https://bitbucket.org/biocommons/eutils/issues?status=new&status=open">Issues</a>]
+        [<a href="https://bitbucket.org/biocommons/eutils/issues?status=new&status=open"><span class="count" id="nissues-eutils"></span> Issues</a>]
+	<script type="text/javascript">
+	  $(document).ready(function () { stuff_nissues("eutils") })
+	</script>
+		
       </dt>
       <dd>
 	<p>eutils is a Python package dedicated to searching for, fetching, and parsing records from NCBI using their E-utilities interface.</p>
@@ -57,7 +86,11 @@
       
       <dt>
 	<a href="https://bitbucket.org/biocommons/hgvs">hgvs</a>
-        [<a href="https://bitbucket.org/biocommons/hgvs/issues?status=new&status=open">Issues</a>]
+        [<a href="https://bitbucket.org/biocommons/hgvs/issues?status=new&status=open"><span class="count" id="nissues-hgvs"></span> Issues</a>]
+	<script type="text/javascript">
+	  $(document).ready(function () { stuff_nissues("hgvs") })
+	</script>
+		
       </dt>
       <dd>
 	<p>This package provides a Python library to facilitate the use of genome, transcript, and protein variants that are represented using the Human Genome Variation Society (Mutnomen) recommendations.</p>
@@ -65,7 +98,11 @@
       
       <dt>
 	<a href="https://bitbucket.org/biocommons/multifastadb">multifastadb</a>
-        [<a href="https://bitbucket.org/biocommons/multifastadb/issues?status=new&status=open">Issues</a>]
+        [<a href="https://bitbucket.org/biocommons/multifastadb/issues?status=new&status=open"><span class="count" id="nissues-multifastadb"></span> Issues</a>]
+	<script type="text/javascript">
+	  $(document).ready(function () { stuff_nissues("multifastadb") })
+	</script>
+		
       </dt>
       <dd>
 	<p>MultiFastaDB presents a collection of indexed fasta files as a single source. The intent is to simplify accessing a virtual database of sequences that is distributed across multiple files.</p>
@@ -73,7 +110,11 @@
       
       <dt>
 	<a href="https://bitbucket.org/biocommons/uta">uta</a>
-        [<a href="https://bitbucket.org/biocommons/uta/issues?status=new&status=open">Issues</a>]
+        [<a href="https://bitbucket.org/biocommons/uta/issues?status=new&status=open"><span class="count" id="nissues-uta"></span> Issues</a>]
+	<script type="text/javascript">
+	  $(document).ready(function () { stuff_nissues("uta") })
+	</script>
+		
       </dt>
       <dd>
 	<p>The UTA (Universal Transcript Archive) stores transcripts aligned to sequence references (typically genome reference assemblies). It supports aligning the same transcript to multiple references using multiple alignment methods.</p>
@@ -81,7 +122,11 @@
       
       <dt>
 	<a href="https://bitbucket.org/biocommons/uta-align">uta-align</a>
-        [<a href="https://bitbucket.org/biocommons/uta-align/issues?status=new&status=open">Issues</a>]
+        [<a href="https://bitbucket.org/biocommons/uta-align/issues?status=new&status=open"><span class="count" id="nissues-uta-align"></span> Issues</a>]
+	<script type="text/javascript">
+	  $(document).ready(function () { stuff_nissues("uta-align") })
+	</script>
+		
       </dt>
       <dd>
 	<p>uta-align provides C-based Needleman-Wunsch and Smith-Waterman alignment algorithms with a Python interface.</p>
