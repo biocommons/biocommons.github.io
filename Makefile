@@ -3,8 +3,8 @@
 .DELETE_ON_ERROR:
 
 
-index.html: index.py index.yaml index.html.in
-	./$^ >$@
+deploy:
+	mkdocs gh-deploy
 
-remake:
-	while true; do make index.html; sleep 5; done
+serve:
+	mkdocs serve
