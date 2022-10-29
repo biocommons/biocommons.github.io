@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "wordWrapColumn",
+    "debug.console.wordWrap": false,
+    "editor.wordWrapColumn": 100,
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.wrappingColumn": 100,
+}
