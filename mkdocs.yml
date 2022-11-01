@@ -7,25 +7,27 @@ theme:
   name: material
 
   features:
-    - navigation.top
-    - navigation.instant
     - navigation.indexes
+    - navigation.instant
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
     - search.highlight
+    - toc.follow
+    - toc.integrate
 
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
+      primary: indigo
       accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
+      primary: indigo
       accent: teal
       toggle:
         icon: material/brightness-4
@@ -33,16 +35,13 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  logo: images/logo.png
+  logo: images/logo.svg
   favicon: images/logo.png
-
-nav:
-  - Home: index.md
-  - About:
-      - Executive Summary: executive-summary.md
-      - Mission: mission.md
-      - Governance: governance.md
-  - Teams & Projects: teams-projects.md
-  - Meetings:
-      - Somewhere Over the Rainbow: meeting.md
+# nav:
+#   - About:
+#       - Executive Summary: executive-summary.md
+#       - Mission: mission.md
+#       - Governance: governance.md
+#   - Project Teams: project-teams.md
+#   - Meetings:
+#       - Somewhere Over the Rainbow: meeting.md
