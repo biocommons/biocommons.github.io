@@ -23,7 +23,7 @@ hide:
 
 ## Projects
 
-### Production
+### Released
 
 - [bioutils](https://github.com/biocommons/bioutils) provides common tools and lookup tables used
   primarily by the hgvs and uta packages
