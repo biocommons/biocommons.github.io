@@ -32,8 +32,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -508,12 +508,19 @@
 
 
 <h1 id="welcome-to-the-biocommons">Welcome to the biocommons!</h1>
-<p><img width="10%" src="images/logo.svg" style="float: left; margin: 0 25px 0 25px;"></p>
-<p><b>The biocommons project is a community of diagnostic testing labs and academic
-groups that fosters pre-competitive collaboration on interoperable and
-high-quality bioinformatics software and data, primarily  for sequence variant
-interpretation.</b></p>
-<div style="padding-top: 3px; clear: both"/>
+<div style="display: grid; grid-template-columns: 1fr 3fr; grid-gap: 20px; place-items: center;">
+
+  <div style="align: center">
+    <img src="images/logo.svg">
+  </div>
+
+  <div style="color: #666;">
+    <b>The biocommons is a community of that fosters
+    pre-competitive collaboration on interoperable and high-quality bioinformatics open source software and data,
+    primarily for sequence variant interpretation.  Code is released under <a href="https://opensource.org/licenses/Apache-2.0">Apache License v2</a> and data are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0 license</a>.</b>
+  </div>
+
+</div>
 
 <h2 id="projects">Projects</h2>
 <h3 id="production">Production</h3>
@@ -521,8 +528,9 @@ interpretation.</b></p>
 <li><a href="https://github.com/biocommons/bioutils">bioutils</a> provides common tools and lookup tables used
   primarily by the hgvs and uta packages</li>
 <li><a href="https://github.com/biocommons/eutils">eutils</a> simplified searching, fetching, and parsing records
-  from NCBI using their E-utilities interface- <a href="https://github.com/biocommons/hgvs">hgvs</a> Python
-  library to parse, format, validate, normalize, and map sequence variants.</li>
+  from NCBI using their E-utilities interface</li>
+<li><a href="https://github.com/biocommons/hgvs">hgvs</a> Python library to parse, format, validate, normalize,
+  and map sequence variants.</li>
 <li><a href="https://github.com/biocommons/biocommons.seqrepo">SeqRepo</a> non-redundant, compressed, journalled,
   file-based storage for biological sequences</li>
 <li><a href="https://github.com/biocommons/seqrepo-rest-service">seqreo-rest-service</a> OpenAPI-based REST
@@ -540,9 +548,9 @@ interpretation.</b></p>
 <p>The biocommons project began as an umbrella project for open source software that was released by
 <a href="https://invitae.com/">Invitae</a>. Biocommons software was subsequently used by groups at
 <a href="https://clinicalgenome.org/">ClinGen</a>, <a href="https://color.com/">Color</a>, <a href="https://ga4gh.org/">GA4GH</a>,
-<a href="https://genomoncology.com/">GenomOncology</a>, and many other institutions.  In order to ensure that
+<a href="https://genomoncology.com/">GenomOncology</a>, and many other institutions. In order to ensure that
 existing projects continue to meet the needs of the community, and to provide a forum for related
-new software, the biocommons project will be rebooted in order to clarify governance, code of
+new software, the biocommons project is being restructured in order to clarify governance, code of
 conduct, contribution policies, and coding guidelines. See the <a href="reboot/">reboot preview pages</a> for
 more information.</p>
 
