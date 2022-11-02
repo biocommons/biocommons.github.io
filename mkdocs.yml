@@ -2,6 +2,8 @@
 # https://www.mkdocs.org/user-guide/deploying-your-docs/#organization-and-user-pages
 
 site_name: biocommons
+extra_css:
+  - stylesheets/extra.css
 
 theme:
   name: material
