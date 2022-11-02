@@ -179,7 +179,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -440,33 +442,43 @@
 
 
 <h1 id="welcome-to-the-biocommons">Welcome to the biocommons!</h1>
-<p><img width="15%" src="images/logo.png" style="float: left; margin-right: 50px;"></p>
-<p><em>The biocommons project is a community of diagnostic testing labs and academic
-groups that fosters pre-competitive collaboration on interoperable and
-high-quality bioinformatics software and data, primarily  for sequence variant
-interpretation.</em></p>
+<div style="display: grid; grid-template-columns: 1fr 3fr; grid-gap: 20px; place-items: center;">
+
+  <div style="align: center">
+    <img src="images/logo.svg">
+  </div>
+
+  <div style="color: #666;">
+    <b>The biocommons is a community of that fosters
+    pre-competitive collaboration on interoperable and high-quality bioinformatics open source software and data,
+    primarily for sequence variant interpretation.  Code is released under <a href="https://opensource.org/licenses/Apache-2.0">Apache License v2</a> and data are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0 license</a>.</b>
+  </div>
+
+</div>
+
 <h2 id="projects">Projects</h2>
+<h3 id="released">Released</h3>
 <ul>
-<li><a href="https://github.com/biocommons/anyvar">anyvar</a>
-  [in development] Proof-of-Concept variation translation, validation, and registration service</li>
-<li><a href="https://github.com/biocommons/bioutils">bioutils</a>
-  provides common tools and lookup tables used primarily by the hgvs and uta packages</li>
+<li><a href="https://github.com/biocommons/bioutils">bioutils</a> provides common tools and lookup tables used
+  primarily by the hgvs and uta packages</li>
 <li><a href="https://github.com/biocommons/eutils">eutils</a> simplified searching, fetching, and parsing records
   from NCBI using their E-utilities interface</li>
-<li><a href="https://github.com/biocommons/hgvs">hgvs</a>
-  Python library to parse, format, validate, normalize, and map sequence variants.</li>
-<li><a href="https://github.com/biocommons/biocommons.seqrepo">SeqRepo</a>
-  non-redundant, compressed, journalled, file-based storage for biological sequences</li>
-<li><a href="https://github.com/biocommons/seqrepo-rest-service">seqreo-rest-service</a>
-  OpenAPI-based REST interface to biological sequences and sequence metadata</li>
-<li><a href="https://github.com/biocommons/uta">UTA</a>
-  Universal Transcript Archive: comprehensive genome-transcript
-  alignments; multiple transcript sources, versions, and alignment
-  methods; available as a docker image</li>
-<li><a href="https://github.com/biocommons/uta-align">uta-align</a>
-  C-based Needleman-Wunsch and Smith-Waterman alignment algorithms with a Python interface.</li>
+<li><a href="https://github.com/biocommons/hgvs">hgvs</a> Python library to parse, format, validate, normalize,
+  and map sequence variants.</li>
+<li><a href="https://github.com/biocommons/biocommons.seqrepo">SeqRepo</a> non-redundant, compressed, journalled,
+  file-based storage for biological sequences</li>
+<li><a href="https://github.com/biocommons/seqrepo-rest-service">seqreo-rest-service</a> OpenAPI-based REST
+  interface to biological sequences and sequence metadata</li>
+<li><a href="https://github.com/biocommons/uta">UTA</a> Universal Transcript Archive: comprehensive
+  genome-transcript alignments; multiple transcript sources and versions, multiple genomic
+  references, and multiple alignment methods, particularly splign (NCBI) and (blat) (UCSC)</li>
 </ul>
-<h2 id="about-us">About us</h2>
+<h3 id="incubating">Incubating</h3>
+<ul>
+<li><a href="https://github.com/biocommons/anyvar">anyvar</a> Proof-of-Concept variation translation, validation,
+  and registration service</li>
+</ul>
+<h2 id="governance">Governance</h2>
 <ul>
 <li><a href="mission/">Mission</a>: Why we exist (or longer executive summary?)</li>
 <li><a href="culture.md">Culture</a>: How we treat each other respectfully</li>
@@ -475,10 +487,19 @@ interpretation.</em></p>
 <li><a href="architecture.md">Architecture</a> and <a href="coding-guidelines/">Coding Guidelines</a>: How we build interoperable tools with consistent behavior</li>
 <li><a href="community/">Community</a>: How you can get involved, learn, use, and contribute joyfully</li>
 </ul>
-<h2 id="organization">Organization</h2>
-<p>TBW</p>
+<h2 id="youre-invited">You're Invited!</h2>
+<p>The biocommons project began as an umbrella project for open source software that was released by
+<a href="https://invitae.com/">Invitae</a>. Biocommons software was subsequently used by groups at
+<a href="https://clinicalgenome.org/">ClinGen</a>, <a href="https://color.com/">Color</a>, <a href="https://ga4gh.org/">GA4GH</a>,
+<a href="https://genomoncology.com/">GenomOncology</a>, and many other institutions. In order to ensure that
+existing projects continue to meet the needs of the community, and to provide a forum for related
+new software, the biocommons project is being restructured in order to clarify governance, code of
+conduct, contribution policies, and coding guidelines. See the <a href="reboot/">reboot preview pages</a> for
+more information.</p>
 
 
+
+  
 
 
 
@@ -499,7 +520,9 @@ interpretation.</em></p>
         <footer class="md-footer">
   
     
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" hidden>
       
         
         <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome to the biocommons!" rel="prev">
