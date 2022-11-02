@@ -1,7 +1,7 @@
 
 # Welcome to the biocommons!
 
-<img width="15%" src="images/biocommons logo2.png" style="float: left; margin-right: 50px;">
+<img width="15%" src="images/logo.png" style="float: left; margin-right: 50px;">
 
 *The biocommons project is a community of diagnostic testing labs and academic
 groups that fosters pre-competitive collaboration on interoperable and
