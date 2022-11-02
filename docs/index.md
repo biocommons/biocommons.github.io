@@ -1,10 +1,3 @@
----
-hide:
-  - footer
-  - navigation
-  - toc
----
-
 # Welcome to the biocommons!
 
 <div style="display: grid; grid-template-columns: 1fr 3fr; grid-gap: 20px; place-items: center;">
@@ -44,13 +37,24 @@ hide:
 - [anyvar](https://github.com/biocommons/anyvar) Proof-of-Concept variation translation, validation,
   and registration service
 
+
+## Governance
+
+- [Mission](mission.md): Why we exist (or longer executive summary?)
+- [Culture](culture.md): How we treat each other respectfully
+- [Governance](governance.md): How we organize to promote effective collaboration
+- [Practices](practices.md) and [Tools](tools.md): How we get stuff done coherently
+- [Architecture](architecture.md) and [Coding Guidelines](coding-guidelines.md): How we build interoperable tools with consistent behavior
+- [Community](community.md): How you can get involved, learn, use, and contribute joyfully
+
 ## You're Invited!
 
 The biocommons project began as an umbrella project for open source software that was released by
 [Invitae](https://invitae.com/). Biocommons software was subsequently used by groups at
 [ClinGen](https://clinicalgenome.org/), [Color](https://color.com/), [GA4GH](https://ga4gh.org/),
-[GenomOncology](https://genomoncology.com/), and many other institutions. In order to ensure that
-existing projects continue to meet the needs of the community, and to provide a forum for related
-new software, the biocommons project is being restructured in order to clarify governance, code of
-conduct, contribution policies, and coding guidelines. See the [reboot preview pages](reboot/) for
-more information.
+[GenomOncology](https://genomoncology.com/), and many other institutions.
+
+**In order to ensure that existing projects continue to meet the needs of the community, and to
+provide a forum for related new software, the biocommons project is being restructured (November
+2022) in order to clarify governance, code of conduct, contribution policies, and coding
+guidelines.**

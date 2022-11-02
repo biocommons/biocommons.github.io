@@ -41,9 +41,9 @@ theme:
   favicon: images/logo.png
 # nav:
 #   - About:
-#       - Executive Summary: executive-summary.md
 #       - Mission: mission.md
 #       - Governance: governance.md
-#   - Project Teams: project-teams.md
-#   - Meetings:
+#   - Contributing:
 #       - Somewhere Over the Rainbow: meeting.md
+#   - Projects:
+#       - Projects: project-teams.md
