@@ -7,15 +7,12 @@
   </div>
 
   <div style="color: #666;">
-    <b>The biocommons is a community of that fosters
-    pre-competitive collaboration on interoperable and high-quality bioinformatics open source software and data,
-    primarily for sequence variant interpretation.  Code is released under <a href="https://opensource.org/licenses/Apache-2.0">Apache License v2</a> and data are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0 license</a>.</b>
+    <b>The biocommons is a community that fosters collaboration on pre-competitive, interoperable, and high-quality bioinformatics open source software and data, primarily for biological sequence analysis and interpretation.  Code is released under <a href="https://opensource.org/licenses/Apache-2.0">Apache License v2</a> and data are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0 license</a>.</b>
   </div>
 
 </div>
 
-
-!!! info "You're Invited!"
+!!! info "Join Us!"
 
     The biocommons project began as an umbrella project for open source software that was released by
     [Invitae](https://invitae.com/). Biocommons software was subsequently used by groups at
@@ -26,7 +23,6 @@
     provide a forum for related new software, the biocommons project is being restructured (December
     2022) in order to clarify governance, code of conduct, contribution policies, and coding
     guidelines.**
-
 
 ## Projects
 

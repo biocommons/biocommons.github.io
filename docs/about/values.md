@@ -17,3 +17,13 @@
 - mentorship
 - community of contributors
 - rewarding engagement
+
+
+- Lightweight process with a focus on outcomes
+- Reliable, high-quality, and clinical-grade software
+- Coherency, consistency, predictability, principle of least surprise
+- Interoperable software
+- Mission and community
+- Mentorship and learning. Openness by default. Diversity.
+- Presumption of good intentions
+- Common practices and tools.

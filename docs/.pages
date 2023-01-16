@@ -1,5 +1,6 @@
 nav:
     - index.md
-    - projects
+    - about
+    - teams
     - contributing
     - ...
