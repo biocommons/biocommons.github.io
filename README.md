@@ -9,9 +9,11 @@
 
 ## Write
 
+    source venv/bin/activate
     make serve
 
 ## Deploy
 
+    source venv/bin/activate
     make deploy
 
