@@ -12,6 +12,11 @@ of behavior, especially needless divergence, is detrimental to the overall goes.
 
 - most development should be the result of an issue
 
+## Issues
+
+## PRs
+
+
 ## Versioning
 
 All biocommons tools use Semantic Versioning.  Package versions are derived from git tags in order

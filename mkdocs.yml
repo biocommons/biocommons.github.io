@@ -6,7 +6,7 @@ site_name: biocommons
 
 plugins:
   #- autolinks
-  - awesome-pages
+  # - awesome-pages
   # - mermaid2
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
@@ -15,6 +15,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - toc:
+      toc_depth: 2
 
 extra:
   social:
@@ -35,6 +37,7 @@ theme:
     #- navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
+    #- navigation.sections
     - search.highlight
     - toc.follow
     - toc.integrate

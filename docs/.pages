@@ -1,6 +1,5 @@
 nav:
     - index.md
-    - about
-    - teams
+    - governance.md
     - contributing
     - ...
