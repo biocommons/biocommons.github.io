@@ -10,34 +10,6 @@ The goal of the biocommons project is accelerate research, promote data sharing,
 health by collaborating on interoperable, high-quality, bioinformatics software and data for
 sequence variant interpretation, and to foster a community that develops these tools.
 
-## Values
-
-- write high-quality code; good engineering practices
-- assume good intentions
-- be transparent
-- interoperability, think about the whole
-- high quality 
-- minimal friction / transparent process / minimal frustration
-- Roadmap planning
-- blocker elimination mechanism
-- Key stakeholders / project decision-makers
-- interoperability
-- consistency
-- encourage contributions
-- encourage input on directions
-- mentorship
-- community of contributors
-- rewarding engagement
-
-- Lightweight process with a focus on outcomes
-- Reliable, high-quality, and clinical-grade software
-- Coherency, consistency, predictability, principle of least surprise
-- Interoperable software
-- Mission and community
-- Mentorship and learning. Openness by default. Diversity.
-- Presumption of good intentions
-- Common practices and tools.
-
 ## Membership
 
 Members of the biocommons are individuals who make actively contribute to the overall project and
@@ -55,66 +27,40 @@ organizations.
 
 The biocommons has the following structure:
 
-- An **Executive Director**, who leads the biocommons during the transition from the current (2022)
-  informal affiliation to a more organized open source project.
 - The **Steering Committee** provides general administrative oversight for the biocommons project.
 - The **Project Teams** plan and coordinate development activities within their projects,
   consistent with biocommons architectural directions.
-
-### Executive Director
-
-STOPPED HERE
-
-The Architecture Team:
-
-- Is comprised of the Architecture Lead and other members who are appointed by the Steering
-  Committee.
-- Makes project-wide techincal decisions in order to foster consisitency and interoperability.
-- Establishes coding guidelines.
-- Participates in project code reviews as requested.
-
-
-The Executive Director will set
-  coding guidelines and standards in order maximize the utility of biocommons software and data. The
-  Executive Director will also arrange technical and systems administration support, such as AWS
-  infrastructure and web site development.
-
-
-It is expected that Project Leads (below) should attend Architectural Team meetings in order to
-raise issues or concerns, and to ensure that projects remain aligned and coordinated. Decisions in
-the Architecture Team are expected to be made by consensus. The Executive Director is a member of
-the Architecture Team and may override decisions in exceptional circumstances.
-
 
 ### Steering Committee
 
 The Steering Committee:
 
-- Is resposible for the development of a healthy organization.
+- Is resposible for fostering a healthy organization, including promoting events, engaging with the
+  scientific community, and enforcing our code of conduct.
 - Updates this governance document and resolves questions about its interpretation.
-- Selects leaders for other teams.
+- Selects leaders for project teams.
 - Receives and responds to issues regarding membership and breaches of community standards.
+- Makes project-wide techinical decisions in order to foster consisitency and interoperability.
+- Establishes coding guidelines and standards in order maximize the utility of biocommons software
+  and data.
+- Participates in project code reviews as requested.
+- Arrange technical and systems administration support, such as AWS infrastructure and web site
+  development.
 
-The Steering Committee is comprised of the Executive Director and other members who are invited by the
-Executive Director.  The Steering Committee is expected to meet every 3 months.  Decisions in the
-Steering Committee are made by the Executive Director with input from Steering Committee members.
-
+The Steering Committee is comprised of the Executive Director and other members who are invited by
+the Executive Director. Decisions in the Steering Committee are made by the Executive Director with
+input from Steering Committee members. The Steering Committee is expected to meet every 3 months.  
 
 ### Project Teams
 
 Project Teams are responsible for planning and coordinating development activities within their
 projects. A project typically corresponds to one or more related source code repositories.
 
-Project Teams should have at least two Project Leads, appointed by the Steering Committee. The Project
-Leads are the primary maintainers of the relevant repositories.
-
-Management of project repositories should be consistent with the overall biocommons [coding
-guidelines](coding-guidelines.md).
-
-### Team Leadership
-
-Team leaders are nominated by the Steering Committee based on recognized domain expertise and
-sustained contribution to the biocommons.
+Project Teams should have at least two Project Leads, appointed by the Steering Committee. The
+Project Leaders are the primary maintainers of the relevant repositories. Project Leaders are
+nominated by the Steering Committee based on recognized domain expertise and sustained contribution
+to the biocommons.  Project Leaders are expected to ensure that project repositories are managed
+consistent with the overall biocommons [coding guidelines](coding-guidelines.md).
 
 ### Other Teams and Roles
 

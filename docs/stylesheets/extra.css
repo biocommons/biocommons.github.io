@@ -11,3 +11,10 @@ h3 {
 label.md-nav__title {
     display: none
 }
+
+.admonition-title {
+    font-size: 0.8rem;
+}
+.admonition > p {
+    font-size: 0.8rem;
+}
