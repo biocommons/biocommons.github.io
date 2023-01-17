@@ -17,8 +17,7 @@
     The biocommons project began as an umbrella organization for open source software that was released by [Invitae](https://invitae.com/). Biocommons software was subsequently adopted by groups at [ClinGen](https://clinicalgenome.org/), [Color](https://color.com/), [GA4GH](https://ga4gh.org/), [GenomOncology](https://genomoncology.com/), and many other institutions.  Although development has slowed in the last few years, there is a push to reboot the project and commit new energy to biocommons software.
 
     **In order to ensure that existing projects continue to meet the needs of the community, and to
-    provide a forum for related new software, the biocommons project is being restructured (December
-    2022) in order to clarify governance, code of conduct, contribution policies, and coding
+    provide a forum for related new software, the biocommons project is being restructured (January 2023) in order to clarify governance, code of conduct, contribution policies, and coding
     guidelines.**
 
 

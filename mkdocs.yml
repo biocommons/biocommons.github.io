@@ -7,7 +7,7 @@ site_name: biocommons
 plugins:
   #- autolinks
   - awesome-pages
-  # - mermaid2
+  #- mermaid2
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
@@ -27,6 +27,9 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+
+# extra_javascript:
+#   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 theme:
   name: material
