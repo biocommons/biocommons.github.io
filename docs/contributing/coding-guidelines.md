@@ -9,6 +9,12 @@ of behavior, especially needless divergence, is detrimental to the overall goes.
 - main, dev, feature branches, nn-
 - use and keep up-to-date with template
 
+- 1-3 project leads are code owners. They are expected to meet and discuss as needed.
+- Code owners may commit directly. Everyone else needs to submit a PR from a fork.
+- All branches and PRs should be tied to a github issue for that repo with standard naming conventions.
+- PRs should include docs and tests (but up to the code owners).
+
+- All Python packages must use the same structure (pyproject.toml, __version__ from git, etc).
 
 - most development should be the result of an issue
 

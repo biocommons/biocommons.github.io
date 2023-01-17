@@ -31,7 +31,7 @@
 - [eutils](https://github.com/biocommons/eutils) simplifies searching, fetching, and parsing records
   from NCBI using their E-utilities interface
 - [hgvs](https://github.com/biocommons/hgvs) parses, formats, validates, normalizes,
-  and transforms sequence variants.
+  and transforms sequence variants. 
 - [SeqRepo](https://github.com/biocommons/biocommons.seqrepo) stores biological sequences in a
   non-redundant, compressed, journalled, file-based storage
 - [seqreo-rest-service](https://github.com/biocommons/seqrepo-rest-service) provies a REST

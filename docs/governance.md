@@ -78,15 +78,3 @@ GitHub account management, and web site support.
 - https://www.infoworld.com/article/3451796/3-models-for-open-source-governance.html
 - https://www.redhat.com/en/resources/guide-to-open-source-project-governance-models-overview
 
-
-
-!!! info foo
-    [Supreme executive power derives from a mandate from the masses, not from some farcical aquatic
-    ceremony.](https://youtu.be/KN9c2TAWMlg?t=134)
-    
-    Common goods fail because of a failure to coordinate collective action. To scale and sustain an
-    open source project, open source communities need to transition from individual, uncoordinated
-    action to cooperative, coordinated action. [From [3 Models for Open Source
-    Governance](https://www.infoworld.com/article/3451796/3-models-for-open-source-governance.html)]
-
-

@@ -1,5 +1,6 @@
 # Preferred Tools
 
+- markdown for docs
 - mermaid
 - drawio
 - vscode
@@ -7,4 +8,5 @@
 - issues in github
 - google calendar
 - google meet
-- google drive
+- google docs if not above
+
