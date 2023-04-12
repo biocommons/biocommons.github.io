@@ -1,6 +1,5 @@
 nav:
-    - index.md
-    - connecting.md
-    - contributing
-    - governance.md
+    - Home: index.md
+    - projects.md
     - ...
+

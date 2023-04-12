@@ -7,14 +7,19 @@ site_name: biocommons
 plugins:
   #- autolinks
   - awesome-pages
-  #- mermaid2
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - def_list
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       toc_depth: 2
 
@@ -28,9 +33,6 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
-# extra_javascript:
-#   - https://unpkg.com/mermaid/dist/mermaid.min.js
-
 theme:
   name: material
 
@@ -40,7 +42,7 @@ theme:
     #- navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
-    #- navigation.sections
+    # - navigation.sections
     - search.highlight
     - toc.follow
     - toc.integrate

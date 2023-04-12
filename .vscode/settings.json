@@ -4,4 +4,5 @@
     "editor.wordWrapColumn": 100,
     "rewrap.autoWrap.enabled": true,
     "rewrap.wrappingColumn": 100,
+    "git-blame.gitWebUrl": "",
 }

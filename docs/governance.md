@@ -12,9 +12,10 @@ sequence variant interpretation, and to foster a community that develops these t
 ## Membership
 
 Members of the biocommons are individuals who 1) actively contribute to the overall project and 2)
-uphold our contribution guidelines (including code of conduct). Contributions include activities
-that further the mission, such as writing documentation, providing technical assistance in forums,
-triaging issues, managing projects, providing logistics support, and, of course, coding.
+uphold our [contribution guidelines](/contributing/) (including [our code of
+conduct](/contributing/code-of-conduct/)). Contributions include activities that further the
+mission, such as writing documentation, providing technical assistance in forums, triaging issues,
+managing projects, providing logistics support, and, of course, coding.
 
 Members who violate biocommons our code of conduct may be suspended from participation in the
 biocommons, including leadership positions.

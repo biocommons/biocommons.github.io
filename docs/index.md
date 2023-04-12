@@ -1,4 +1,4 @@
-# Home
+# Welcome to the biocommons
 
 <div style="display: grid; grid-template-columns: 1fr 3fr; grid-gap: 20px; place-items: center;">
 
@@ -12,14 +12,10 @@
 
 </div>
 
-!!! info "Join Us!"
+!!! note "Biocommons Hackathon in September 2023"
 
-    The biocommons project began as an umbrella organization for open source software that was released by [Invitae](https://invitae.com/). Biocommons software was subsequently adopted by groups at [ClinGen](https://clinicalgenome.org/), [Color](https://color.com/), [GA4GH](https://ga4gh.org/), [GenomOncology](https://genomoncology.com/), and many other institutions.  Although development has slowed in the last few years, there is a push to reboot the project and commit new energy to biocommons software.
-
-    **In order to ensure that existing projects continue to meet the needs of the community, and to
-    provide a forum for related new software, the biocommons project is being restructured (January 2023) in order to clarify governance, code of conduct, contribution policies, and coding
-    guidelines.**
-
+    The GA4GH 11th Plenary meeting will be held in San Francisco September 19-22, 2023. We are
+    currently planning an in-person hackathon in the days before the event.  See [Hackathon 2023](hackathon-2023/) for more.
 
 ## Projects
 

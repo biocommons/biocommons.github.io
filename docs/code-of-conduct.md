@@ -1,5 +1,9 @@
 
-# Contributor Covenant Code of Conduct
+# Code of Conduct
+
+!!! note "Contributor Covenant 2.1"
+
+    The biocommons uses the [Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html). It is reproduced verbatim below.
 
 ## Our Pledge
 
