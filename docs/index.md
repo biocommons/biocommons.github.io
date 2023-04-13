@@ -16,27 +16,3 @@
 
     The GA4GH 11th Plenary meeting will be held in San Francisco September 19-22, 2023. We are
     currently planning an in-person hackathon in the days before the event.  See [Hackathon 2023](hackathon-2023/) for more.
-
-## Projects
-
-### Released
-
-- [bioutils](https://github.com/biocommons/bioutils) provides common tools and lookup tables used
-  primarily by the hgvs and uta packages
-- [eutils](https://github.com/biocommons/eutils) simplifies searching, fetching, and parsing records
-  from NCBI using their E-utilities interface
-- [hgvs](https://github.com/biocommons/hgvs) parses, formats, validates, normalizes,
-  and transforms sequence variants. 
-- [SeqRepo](https://github.com/biocommons/biocommons.seqrepo) stores biological sequences in a
-  non-redundant, compressed, journalled, file-based storage
-- [seqreo-rest-service](https://github.com/biocommons/seqrepo-rest-service) provies a REST
-  interface to biological sequences and sequence metadata
-- [UTA](https://github.com/biocommons/uta) (Universal Transcript Archive) is a comprehensive archive
-  of genome-transcript alignments; multiple transcript sources and versions, multiple genomic
-  references, and multiple alignment methods, particularly splign (NCBI) and (blat) (UCSC)
-
-### Incubating
-
-- [anyvar](https://github.com/biocommons/anyvar) is a proof-of-concept variation translation, validation,
-  and registration service
-

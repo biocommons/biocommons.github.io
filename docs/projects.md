@@ -1,5 +1,20 @@
 # Projects
 
+![](/images/components.drawio.svg){.right}
 
-![](/images/components.drawio.svg)
 
+- [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
+  translation, validation, and registration service.
+- [bioutils](https://github.com/biocommons/bioutils) provides common tools and lookup tables used
+  primarily by the hgvs and uta packages
+- [eutils](https://github.com/biocommons/eutils) simplifies searching, fetching, and parsing records
+  from NCBI using their E-utilities interface
+- [hgvs](https://github.com/biocommons/hgvs) parses, formats, validates, normalizes,
+  and transforms sequence variant expressions according to [HGVS Nomenclature](https://hgvs-nomenclature.org/)
+- [SeqRepo](https://github.com/biocommons/biocommons.seqrepo) stores biological sequences in a
+  non-redundant, compressed, journalled, file-based storage
+- [seqreo-rest-service](https://github.com/biocommons/seqrepo-rest-service) provides a REST
+  interface to biological sequences and sequence metadata
+- [UTA](https://github.com/biocommons/uta) (Universal Transcript Archive) is a comprehensive archive
+  of genome-transcript alignments; multiple transcript sources and versions, multiple genomic
+  references, and multiple alignment methods, particularly splign (NCBI) and (blat) (UCSC)
