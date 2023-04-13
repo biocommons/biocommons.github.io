@@ -15,7 +15,11 @@ divergence of behavior, especially needless divergence, is detrimental to the ov
 - Source code and planning: GitHub, with GitHub issues and projects
 - Development: VS Code, with recommended setup for embedded mermaid and drawings.net support
 
+## Coding
 
+- All packages use the Apache License, 2.1.
+
+- All package should use the example repo to get started
 
 - code maintainers 
 - main, dev, feature branches, nn-
@@ -31,10 +35,12 @@ divergence of behavior, especially needless divergence, is detrimental to the ov
 - most development should be the result of an issue
 
 
+
 ## Issues
 
 ## PRs
 
+## Code formatting
 
 ## Versioning
 
@@ -42,6 +48,8 @@ All biocommons tools use Semantic Versioning.  Package versions are derived from
 to ensure that released software always corresponds to a git tag.
 
 ## Branching and Merging Model
+
+![](/images/branching-strategy.drawio.svg){.right}
 
 - main is the release branch.
 - release-specific branches, branched off of main and named as x.y, support concurrent
@@ -60,8 +68,6 @@ the issue.
 - Tests must pass in order to be merged. Branches that are failing tests will not be merged.
 - Merging to main and dev is restricted to code owners.
 
-![alt blah](/images/branching-model.png)
-
 
 ## Coding Guidelines
 
@@ -69,7 +75,7 @@ example repo
 
 Code in biocommons org
 
-License = Apache
+
 Example repo
 Consistent setup from template
 

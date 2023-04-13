@@ -12,17 +12,21 @@ Please read our [Contribution Guidelines](/contributing/).
 
 ## Groups
 
-!!! note "Groups aren't just for email anymore!"
-    Google groups are used to grant access to files, invite people to meetings, and, of
-    course, for email distribution.  If you can't access files or aren't getting calendar
-    invitations, you may need to check your group membership.
+Google groups are used to grant access to files, invite people to meetings, and, of
+course, for email distribution.  
 
-    Announcement lists: Announcements only; no posting.
-    Discussion lists: Anyone may join. First posts are moderated.
+### Announcement lists
+
+Announcement lists are for announcements only; anyone may join, but posting is limited. 
 
 * [biocommons-announce](https://groups.google.com/g/biocommons-announce)
   Announcement list. Low-volume, read-only list primarily for announcements of new releases, meetings, and similar
   information.
+
+### Discussion lists
+
+Discussion lists are for community discussion; anyone may join and post, but first posts are
+moderated to cut down spam.
 
 * [biocommons-devs](https://groups.google.com/g/biocommons-devs)
   Discussion list for developers of biocommons tools.
@@ -40,6 +44,7 @@ Please read our [Contribution Guidelines](/contributing/).
   Discussion list to discuss hgvs (the package) and HGVS (the recommendations). Deprecated; use
   biocommons-users instead.
 
+
 ## Documents
 
-The [Google Drive folder](t.ly/biocommons-drive) has lots of documents, and instructions as well.
+The [Google Drive folder](https://t.ly/biocommons-drive) has lots of documents, and instructions as well.

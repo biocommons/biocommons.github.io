@@ -1,5 +1,8 @@
 nav:
     - Home: index.md
     - projects.md
+    - community.md
+    - How to contribute: contributing.md
+    - code-of-conduct.md
+    - governance.md
     - ...
-
