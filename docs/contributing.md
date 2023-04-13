@@ -2,24 +2,26 @@
 
 Thank you for your interest in contributing to the biocommons! We welcome your participation!
 
-For the collective good of the organization, biocommons projects use shared technical standards and
-coding guidelines.  biocommons projects should operate consistently and coherently;
-divergence of behavior, especially needless divergence, is detrimental to the overall goals.  
+biocommons projects use shared technical standards and coding guidelines in order to operate
+consistently and coherently, and to facilitate contributors moving between projects.
 
 ## Preferred Tools
 
 - Meetings: Google Calendar and Google Meet, with an agenda attached to the meeting
 - Google Groups for mailing lists
-- Documentation: markdown and [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/),
-  with diagrams in mermaid and diagrams.net (aka drawio).
 - Source code and planning: GitHub, with GitHub issues and projects
+- Documentation: markdown, with diagrams in mermaid and diagrams.net (aka drawio), in code repo.
 - Development: VS Code, with recommended setup for embedded mermaid and drawings.net support
 
-## Coding
+## Repos
 
 - All packages use the Apache License, 2.1.
 
-- All package should use the example repo to get started
+- Most packages use the [biocommons.example
+  repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
+  to the example will occasionally be merged into the repos
+
+- Repos 
 
 - code maintainers 
 - main, dev, feature branches, nn-
@@ -33,7 +35,6 @@ divergence of behavior, especially needless divergence, is detrimental to the ov
 - All Python packages must use the same structure (pyproject.toml, `__version__` from git, etc).
 
 - most development should be the result of an issue
-
 
 
 ## Issues
