@@ -6,3 +6,33 @@ h2 {
 h3 {
     color: #666;
 }
+
+
+label.md-nav__title {
+    display: none
+}
+
+.admonition-title {
+    font-size: 0.8rem;
+}
+
+.admonition>p {
+    font-size: 0.8rem;
+}
+
+
+/* For image centering ideas, see
+   https://dev.to/bdavidxyz/markdown-center-image-39j1 */
+
+img.center {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+img.right {
+    float: right;
+    width: 50%
+}
