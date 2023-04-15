@@ -1,7 +1,8 @@
 # Governance
 
 **This governance document provides a framework for the organization, decision making, and essential
-values of the biocommons project. The Steering Committee (defined below) will refine this document in order to serve the needs of the biocommons objectives.**
+values of the biocommons community. The Steering Committee (defined below) will refine this document
+in order to serve the needs of the biocommons objectives.**
 
 ## Mission
 
@@ -13,9 +14,9 @@ sequence variant interpretation, and to foster a community that develops these t
 
 Members of the biocommons are individuals who 1) actively contribute to the overall project and 2)
 uphold our [contribution guidelines](/contributing/) (including [our code of
-conduct](/contributing/code-of-conduct/)). Contributions include activities that further the
-mission, such as writing documentation, providing technical assistance in forums, triaging issues,
-managing projects, providing logistics support, and, of course, coding.
+conduct](/code-of-conduct/)). Contributions include activities that further the mission, such as
+writing documentation, providing technical assistance in forums, triaging issues, managing projects,
+providing logistics support, and, of course, coding.
 
 Members who violate biocommons our code of conduct may be suspended from participation in the
 biocommons, including leadership positions.
@@ -67,7 +68,7 @@ Project Teams should have at least two Project Leads, appointed by the Steering 
 Project Leaders are the primary maintainers of the relevant repositories. Project Leaders are
 nominated by the Steering Committee based on recognized domain expertise and sustained contribution
 to the biocommons.  Project Leaders are expected to ensure that project repositories are managed
-consistent with the overall biocommons [contribution guidelines](/contributing).
+consistent with the overall biocommons [contribution guidelines](/contributing/).
 
 ### Other Teams and Roles
 

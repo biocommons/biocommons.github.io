@@ -8,3 +8,9 @@ deploy:
 
 serve:
 	mkdocs serve
+
+
+check-links:
+	mkdocs build
+	./bin/check-relative-links site/**/*.html
+	
