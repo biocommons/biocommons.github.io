@@ -2,13 +2,17 @@
 
 Please read our [Contribution Guidelines](/contributing/).
 
-
 ## Slack
 
-* [biocommons Slack workspace](https://join.slack.com/t/biocommons/shared_invite/zt-xpgqtso2-GQtq8DCn4ADXdy9_doqSrQ) 
+* [biocommons Slack workspace](https://join.slack.com/t/biocommons/shared_invite/zt-1tg9dwtwg-nM1YIgAT04G6MiffLtKH1Q) 
   This is the best way to get fast answers.
 
 <!-- Note to self: refresh link from https://biocommons.slack.com/admin/shared_invites -->
+
+## Documents
+
+The [Google Drive folder](https://t.ly/biocommons-drive) contains most of the administrative documentation for 
+
 
 ## Groups
 
@@ -37,14 +41,6 @@ moderated to cut down spam.
 * [biocommons-users](https://groups.google.com/g/biocommons-users)
   Discussion list for users to ask (and answer!) questions about tools.
 
-* [biocommons-devops](https://groups.google.com/g/biocommons-devops)
-  Announcement list with automated messages from ci/cd bots, potentially high-volume chatter.
-
 * [hgvs-discuss](https://groups.google.com/g/hgvs-discuss)
   Discussion list to discuss hgvs (the package) and HGVS (the recommendations). Deprecated; use
-  biocommons-users instead.
-
-
-## Documents
-
-The [Google Drive folder](https://t.ly/biocommons-drive) has lots of documents, and instructions as well.
+  [biocommons-users](https://groups.google.com/g/biocommons-users) instead.

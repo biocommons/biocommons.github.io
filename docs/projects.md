@@ -1,7 +1,6 @@
 # Projects
 
-![](/images/components.drawio.svg){.right}
-
+![projects](/images/projects.drawio.svg){.right}
 
 - [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
   translation, validation, and registration service.
@@ -18,3 +17,8 @@
 - [UTA](https://github.com/biocommons/uta) (Universal Transcript Archive) is a comprehensive archive
   of genome-transcript alignments; multiple transcript sources and versions, multiple genomic
   references, and multiple alignment methods, particularly splign (NCBI) and (blat) (UCSC)
+
+## Related external projects
+
+- [ga4gh/vrs-python](https://github.com/ga4gh/vrs-python) is an implementation of the [Variation
+  Representation Specification](https://vrs.ga4gh.org).
