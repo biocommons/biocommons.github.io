@@ -11,6 +11,7 @@ plugins:
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - def_list

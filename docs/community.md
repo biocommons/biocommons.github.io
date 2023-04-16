@@ -39,8 +39,9 @@ moderated to cut down spam.
   Discussion list for biocommons hackathons.
 
 * [biocommons-users](https://groups.google.com/g/biocommons-users)
-  Discussion list for users to ask (and answer!) questions about tools.
+  Discussion list for users to ask and answer questions about tools.
 
-* [hgvs-discuss](https://groups.google.com/g/hgvs-discuss)
-  Discussion list to discuss hgvs (the package) and HGVS (the recommendations). Deprecated; use
-  [biocommons-users](https://groups.google.com/g/biocommons-users) instead.
+### Archived lists
+
+* [hgvs-discuss](https://groups.google.com/g/hgvs-discuss) **DEPRECATED**  Previously used to
+  discuss the hgvs package and preserved for prior disucssions. 

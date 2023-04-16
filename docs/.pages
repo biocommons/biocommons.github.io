@@ -2,7 +2,7 @@ nav:
     - Home: index.md
     - projects.md
     - community.md
-    #- How to contribute: contributing.md
+    - contributing.md
     - governance.md
     - code-of-conduct.md
     - ...

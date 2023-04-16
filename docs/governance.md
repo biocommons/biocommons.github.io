@@ -6,13 +6,13 @@ in order to serve the needs of the biocommons objectives.**
 
 ## Mission
 
-The goal of the biocommons project is accelerate research, promote data sharing, and improve human
-health by collaborating on interoperable, high-quality, bioinformatics software and data for
+The goal of the biocommons community is to accelerate research, promote data sharing, and improve
+human health by collaborating on interoperable, high-quality, bioinformatics software and data for
 sequence variant interpretation, and to foster a community that develops these tools.
 
 ## Membership
 
-Members of the biocommons are individuals who 1) actively contribute to the overall project and 2)
+Members of the biocommons are individuals who 1) actively contribute to the overall community and 2)
 uphold our [contribution guidelines](/contributing/) (including [our code of
 conduct](/code-of-conduct/)). Contributions include activities that further the mission, such as
 writing documentation, providing technical assistance in forums, triaging issues, managing projects,
@@ -30,7 +30,7 @@ The biocommons has the following structure:
 
 - The **Executive Director** oversees the Steering Committee and is generally responsible for
   overall biocommons operations.
-- The **Steering Committee** provides general administrative oversight for the biocommons project.
+- The **Steering Committee** provides general administrative oversight for the biocommons community.
 - The **Project Teams** plan and coordinate development activities within their projects,
   consistent with biocommons architectural directions.
 
@@ -55,7 +55,7 @@ The Steering Committee:
 - Makes project-wide techinical decisions in order to foster consisitency and interoperability.
 - Establishes coding guidelines and standards in order maximize the utility of biocommons software
   and data.
-- Participates in project code reviews as requested.
+- Participates in code reviews as requested.
 - Arranges technical and systems administration support, such as AWS infrastructure and web site
   development.
 

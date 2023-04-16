@@ -50,7 +50,7 @@ to ensure that released software always corresponds to a git tag.
 
 ## Branching and Merging Model
 
-![](/images/branching-strategy.drawio.svg){.right}
+![Branching Strategy](/images/branching-strategy.drawio.svg){.right}
 
 - main is the release branch.
 - release-specific branches, branched off of main and named as x.y, support concurrent
