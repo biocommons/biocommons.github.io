@@ -1,6 +1,8 @@
 # Projects
 
-![projects](/images/projects.drawio.svg){.right}
+![biocommons projects](/images/projects.drawio.svg){data-title="Relationships of biocommons projects" data-description="This diagram shows how biocommons and ga4gh projects are related. Arrows point from the dependent package to the dependency; dependency types are Python (blue), REST (yellow), or the PostgreSQL protocol libpq (red). Data distributions are shown as yellow cylinders."}
+
+## Active projects
 
 - [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
   translation, validation, and registration service.

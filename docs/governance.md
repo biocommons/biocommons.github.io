@@ -1,14 +1,20 @@
 # Governance
 
 **This governance document provides a framework for the organization, decision making, and essential
-values of the biocommons community. The Steering Committee (defined below) will refine this document
-in order to serve the needs of the biocommons objectives.**
+values of the biocommons community. The Steering Committee (defined below) will refine and maintain
+this document in order to serve the objectives of the biocommons community.**
 
 ## Mission
 
 The goal of the biocommons community is to accelerate research, promote data sharing, and improve
 human health by collaborating on interoperable, high-quality, bioinformatics software and data for
 sequence variant interpretation, and to foster a community that develops these tools.
+
+## Values and Norms
+
+The biocommons community is founded on shared [values](/community/#values) and
+[norms](/community/#norms). We use minimal organizational structures necessary to promote the
+mission.
 
 ## Membership
 
@@ -26,7 +32,7 @@ or organizations.
 
 ## Organizational Needs and Teams
 
-The biocommons has the following structure:
+The biocommons organization has the following structure:
 
 - The **Executive Director** oversees the Steering Committee and is generally responsible for
   overall biocommons operations.

@@ -2,24 +2,25 @@
 
 Please read our Contribution Guidelines (to be written).
 
-## Slack
+## Documents
+
+The [Google Drive folder](https://t.ly/biocommons-drive) contains most of the administrative documentation for 
+
+## Communications
+
+### Slack
 
 * [biocommons Slack workspace](https://join.slack.com/t/biocommons/shared_invite/zt-1tg9dwtwg-nM1YIgAT04G6MiffLtKH1Q) 
   This is the best way to get fast answers.
 
 <!-- Note to self: refresh link from https://biocommons.slack.com/admin/shared_invites -->
 
-## Documents
-
-The [Google Drive folder](https://t.ly/biocommons-drive) contains most of the administrative documentation for 
-
-
-## Groups
+### Groups
 
 Google groups are used to grant access to files, invite people to meetings, and, of
 course, for email distribution.  
 
-### Announcement lists
+#### Announcement lists
 
 Announcement lists are for announcements only; anyone may join, but posting is limited. 
 
@@ -27,7 +28,7 @@ Announcement lists are for announcements only; anyone may join, but posting is l
   Announcement list. Low-volume, read-only list primarily for announcements of new releases, meetings, and similar
   information.
 
-### Discussion lists
+#### Discussion lists
 
 Discussion lists are for community discussion; anyone may join and post, but first posts are
 moderated to cut down spam.
@@ -41,7 +42,41 @@ moderated to cut down spam.
 * [biocommons-users](https://groups.google.com/g/biocommons-users)
   Discussion list for users to ask and answer questions about tools.
 
-### Archived lists
+#### Archived lists
 
 * [hgvs-discuss](https://groups.google.com/g/hgvs-discuss) **DEPRECATED**  Previously used to
   discuss the hgvs package and preserved for prior disucssions. 
+
+
+## Values
+
+*what motivates us?*
+
+- write high-quality code; good engineering practices
+- assume good intentions
+- be transparent
+- interoperability, think about the whole
+- high quality 
+- minimal friction / transparent process / minimal frustration
+- Roadmap planning
+- blocker elimination mechanism
+- Key stakeholders / project decision-makers
+- interoperability
+- consistency
+- encourage contributions
+- encourage input on directions
+- mentorship
+- community of contributors
+- rewarding engagement
+
+- Lightweight process with a focus on outcomes
+- Reliable, high-quality, and clinical-grade software
+- Coherency, consistency, predictability, principle of least surprise
+- Interoperable software
+- Mission and community
+- Mentorship and learning. Openness by default. Diversity.
+- Presumption of good intentions
+- Common practices and tools.
+
+
+## Norms
