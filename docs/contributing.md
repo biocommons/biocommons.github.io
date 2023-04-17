@@ -13,6 +13,15 @@ consistently and coherently, and to facilitate contributors moving between proje
 - Documentation: markdown, with diagrams in mermaid and diagrams.net (aka drawio), in code repo.
 - Development: VS Code, with recommended setup for embedded mermaid and drawings.net support
 
+## Ways to Contribute
+
+- Write code
+- Triage and respond to issues
+- Clarify features to be developed
+- Update documentation
+- Help to update and release seqrepo and uta
+
+
 ## Repos
 
 - All packages use the Apache License, 2.1.
@@ -20,8 +29,6 @@ consistently and coherently, and to facilitate contributors moving between proje
 - Most packages use the [biocommons.example
   repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
   to the example will occasionally be merged into the repos
-
-- Repos 
 
 - code maintainers 
 - main, dev, feature branches, nn-

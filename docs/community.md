@@ -52,7 +52,7 @@ moderated to cut down spam.
 
 *what motivates us?*
 
-- write high-quality code; good engineering practices
+- writing high-quality code and engaging in good engineering practices
 - assume good intentions
 - be transparent
 - interoperability, think about the whole
@@ -80,3 +80,7 @@ moderated to cut down spam.
 
 
 ## Norms
+
+- Work to improve our shared environment, not to fragment it.  Releasing competitive forks is incompatible with our shared purpose.
+- Disagree if you like, then align.
+- Similar code style, testing strategies, setup, deployment, packaging across all projects.
