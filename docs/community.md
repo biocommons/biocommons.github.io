@@ -1,6 +1,6 @@
 # Community
 
-Please read our [Contribution Guidelines](/contributing/).
+Please read our Contribution Guidelines (to be written).
 
 ## Slack
 

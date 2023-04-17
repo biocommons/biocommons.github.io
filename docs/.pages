@@ -2,7 +2,6 @@ nav:
     - Home: index.md
     - projects.md
     - community.md
-    - contributing.md
     - governance.md
     - code-of-conduct.md
     - ...
