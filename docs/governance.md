@@ -19,8 +19,8 @@ mission.
 ## Membership
 
 Members of the biocommons are individuals who 1) actively contribute to the overall community and 2)
-uphold our contribution guidelines (to be written) (including [our code of
-conduct](/code-of-conduct/)). Contributions include activities that further the mission, such as
+uphold our [contribution guidelines](/contributing/), [our code of
+conduct](/code-of-conduct/), and [values and norms](/community/). Contributions include activities that further the mission, such as
 writing documentation, providing technical assistance in forums, triaging issues, managing projects,
 providing logistics support, and, of course, coding.
 
@@ -74,7 +74,7 @@ Project Teams should have at least two Project Leads, appointed by the Steering 
 Project Leaders are the primary maintainers of the relevant repositories. Project Leaders are
 nominated by the Steering Committee based on recognized domain expertise and sustained contribution
 to the biocommons.  Project Leaders are expected to ensure that project repositories are managed
-consistent with the overall biocommons contribution guidelines (to be written).
+consistent with the overall biocommons [contribution guidelines](/contributing/).
 
 ### Other Teams and Roles
 
