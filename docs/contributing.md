@@ -5,6 +5,15 @@ Thank you for your interest in contributing to the biocommons! We welcome your p
 biocommons projects use shared technical standards and coding guidelines in order to operate
 consistently and coherently, and to facilitate contributors moving between projects.
 
+## Getting Started
+
+New to Biocommons and looking for ways to contribute? The best way to get started is to sign
+up on the [Biocommons Slack](community#slack) and introduce yourself! You may also consider
+joining one or more [Biocommons discussion lists](community#discussion-lists).
+
+If you have a specific feature in mind for a Biocommons product, create an issue following our
+[community guidelines](#issues) to get in touch with a project team.
+
 ## Preferred Tools
 
 - Meetings: Google Calendar and Google Meet, with an agenda attached to the meeting
@@ -30,7 +39,7 @@ consistently and coherently, and to facilitate contributors moving between proje
   repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
   to the example will occasionally be merged into the repos
 
-- code maintainers 
+- code maintainers
 - main, dev, feature branches, nn-
 - use and keep up-to-date with template
 
@@ -52,8 +61,8 @@ consistently and coherently, and to facilitate contributors moving between proje
 
 ## Versioning
 
-All biocommons tools use Semantic Versioning.  Package versions are derived from git tags in order
-to ensure that released software always corresponds to a git tag.
+All biocommons tools use [Semantic Versioning](https://semver.org/).  Package versions are derived from
+git tags in order to ensure that released software always corresponds to a git tag.
 
 ## Branching and Merging Model
 
@@ -88,10 +97,10 @@ Example repo
 Consistent setup from template
 
 versioning
-- semver 
+
+- semver
 - no v
 - directly from tag when possible
-
 - branching model
 - multiple version branches
 - dev in forks
@@ -100,6 +109,7 @@ versioning
 - Atomic Commits http://en.wikipedia.org/wiki/Atomic_commit#Atomic_Commit_Convention
 
 Pull requests
+
 - squash if you want before the PR
 - branch names 6-go-bonkers
 - Merge commit message used as default for changelog
