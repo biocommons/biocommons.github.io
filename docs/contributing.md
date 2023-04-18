@@ -8,8 +8,8 @@ consistently and coherently, and to facilitate contributors moving between proje
 ## Getting Started
 
 New to Biocommons and looking for ways to contribute? The best way to get started is to sign
-up on the [Biocommons Slack](community#slack) and introduce yourself! You may also consider
-joining one or more [Biocommons discussion lists](community#discussion-lists).
+up on the [Biocommons Slack](/community#slack) and introduce yourself! You may also consider
+joining one or more [Biocommons discussion lists](/community#discussion-lists).
 
 If you have a specific feature in mind for a Biocommons product, create an issue following our
 [community guidelines](#issues) to get in touch with a project team.
