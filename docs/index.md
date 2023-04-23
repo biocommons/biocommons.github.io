@@ -17,4 +17,4 @@
 !!! note "Biocommons Hackathon in September 2023"
 
     The [GA4GH 11th Plenary meeting](https://broadinstitute.swoogo.com/ga4gh11thplenary) will be held in San Francisco September 19-22, 2023. We are
-    currently planning an in-person hackathon in the days before the event.  See [Hackathon 2023](hackathon-2023/) for more.
+    currently planning an in-person hackathon in the days before the event.  See [Hackathon 2023](hackathon-2023.md) for more.

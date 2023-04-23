@@ -5,8 +5,9 @@
 site_name: biocommons
 
 plugins:
-  #- autolinks
+  - autolinks
   - awesome-pages
+  - glightbox
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
@@ -23,6 +24,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       toc_depth: 2
+      permalink: "#"
 
 extra:
   social:

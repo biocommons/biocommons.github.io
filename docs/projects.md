@@ -1,6 +1,6 @@
 # Projects
 
-![projects](/images/projects.drawio.svg){.right}
+![projects](projects.drawio.svg){.right}
 
 - [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
   translation, validation, and registration service.
