@@ -19,8 +19,8 @@ mission.
 ## Membership
 
 Members of the biocommons are individuals who 1) actively contribute to the overall community and 2)
-uphold our [contribution guidelines](/contributing/), [our code of
-conduct](/code-of-conduct/), and [values and norms](/community/). Contributions include activities that further the mission, such as
+uphold our [contribution guidelines](/contributing/), [our code of conduct](/code-of-conduct/), and
+[values and norms](/community/). Contributions include activities that further the mission, such as
 writing documentation, providing technical assistance in forums, triaging issues, managing projects,
 providing logistics support, and, of course, coding.
 

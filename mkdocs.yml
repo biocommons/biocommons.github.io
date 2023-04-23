@@ -5,7 +5,7 @@
 site_name: biocommons
 
 plugins:
-  #- autolinks
+  - autolinks
   - awesome-pages
   - glightbox
   - search
