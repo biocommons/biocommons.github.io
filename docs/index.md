@@ -3,7 +3,7 @@
 <div style="display: grid; grid-template-columns: 1fr 3fr; grid-gap: 20px; place-items: center;">
 
   <div style="align: center">
-    <img src="../images/logo.svg">
+    <img src="images/logo.svg">
   </div>
 
   <div style="color: #666;">
