@@ -4,7 +4,7 @@
 
 site_name: biocommons
 use_directory_urls: true
-
+strict: true
 
 plugins:
   - autolinks
