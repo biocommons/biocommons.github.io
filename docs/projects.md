@@ -1,6 +1,8 @@
 # Projects
 
-![biocommons projects](projects.drawio.svg){data-title="Relationships of biocommons projects" data-description="This diagram shows how biocommons and ga4gh projects are related. Arrows point from the dependent package to the dependency; dependency types are Python (blue), REST (yellow), or the PostgreSQL protocol libpq (red). Data distributions are shown as yellow cylinders."}
+!!! note inline end "Relationships among biocommons projects"
+    (click to enlarge) ![biocommons projects](projects.drawio.svg){data-title="Relationships among biocommons projects" data-description="This diagram shows dependencies among biocommons and ga4gh projects. Arrows point from the dependent package to the dependency; dependency types are Python (blue), REST (yellow), or the PostgreSQL protocol libpq (red). Data distributions are shown as yellow cylinders."}
+
 
 ## Active projects
 
