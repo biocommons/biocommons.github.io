@@ -68,5 +68,5 @@ theme:
   font:
     text: Ubuntu
     code: Roboto Mono
-  logo: images/logo.svg
-  favicon: images/logo.png
+  logo: logo.svg
+  favicon: logo.png
