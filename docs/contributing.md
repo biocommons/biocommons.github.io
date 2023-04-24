@@ -12,7 +12,7 @@ the [Biocommons Slack](/community#slack) and introduce yourself in the #intros c
 also join one or more [Biocommons discussion lists](community.md#discussion-lists).
 
 If you have a specific feature in mind for a Biocommons product, create an issue following our
-[community guidelines](#issues) to get in touch with a project team.
+[coding guidelines](coding-guidelines.md#issues) to get in touch with a project team.
 
 ## Preferred Tools
 
@@ -27,6 +27,6 @@ If you have a specific feature in mind for a Biocommons product, create an issue
 - Write code
 - Triage issues and help users on mailing lists
 - Clarify features to be developed
-- Update documentation
+- Write and edit documentation
 - Update and release SeqRepo and UTA
 - Help with community projects, like the [upcoming hackathon](hackathon-2023.md)

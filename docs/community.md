@@ -4,7 +4,8 @@ Please read [Contributing](/contributing/) for information about how to get invo
 
 ## Documents
 
-The [Google Drive folder](https://t.ly/biocommons-drive) contains most of the administrative documentation for 
+The [Google Drive folder](https://t.ly/biocommons-drive) contains presentations, project planning,
+manuscripts, and similar documents.
 
 ## Communications
 
@@ -20,17 +21,13 @@ The [Google Drive folder](https://t.ly/biocommons-drive) contains most of the ad
 Google groups are used to grant access to files, invite people to meetings, and, of
 course, for email distribution.  
 
-#### Announcement lists
-
-Announcement lists are for announcements only; anyone may join, but posting is limited. 
+**Announcement lists** are for announcements only; anyone may join, but posting is limited. 
 
 * [biocommons-announce](https://groups.google.com/g/biocommons-announce)
   Announcement list. Low-volume, read-only list primarily for announcements of new releases, meetings, and similar
   information.
 
-#### Discussion lists
-
-Discussion lists are for community discussion; anyone may join and post, but first posts are
+**Discussion lists** are for community discussion; anyone may join and post, but first posts are
 moderated to cut down spam.
 
 * [biocommons-devs](https://groups.google.com/g/biocommons-devs)
@@ -42,45 +39,44 @@ moderated to cut down spam.
 * [biocommons-users](https://groups.google.com/g/biocommons-users)
   Discussion list for users to ask and answer questions about tools.
 
-#### Archived lists
+**Archived lists** are kept to preserve prior discussions.
 
 * [hgvs-discuss](https://groups.google.com/g/hgvs-discuss) **DEPRECATED**  Previously used to
-  discuss the hgvs package and preserved for prior disucssions. 
+  discuss the hgvs package. 
 
 
 ## Values
 
 *what motivates us?*
 
-- writing high-quality code and engaging in good engineering practices
-- assume good intentions
-- be transparent
-- interoperability, think about the whole
-- high quality 
-- minimal friction / transparent process / minimal frustration
-- Roadmap planning
-- blocker elimination mechanism
-- Key stakeholders / project decision-makers
-- interoperability
-- consistency
-- encourage contributions
-- encourage input on directions
-- mentorship
-- community of contributors
-- rewarding engagement
-
-- Lightweight process with a focus on outcomes
-- Reliable, high-quality, and clinical-grade software
-- Coherency, consistency, predictability, principle of least surprise
-- Interoperable software
-- Mission and community
-- Mentorship and learning. Openness by default. Diversity.
-- Presumption of good intentions
-- Common practices and tools.
+* writing high-quality code and engaging in good engineering practices
+* assume good intentions
+* be transparent
+* interoperability, think about the whole
+* high quality 
+* minimal friction / transparent process / minimal frustration
+* Roadmap planning
+* blocker elimination mechanism
+* Key stakeholders / project decision-makers
+* interoperability
+* consistency
+* encourage contributions
+* encourage input on directions
+* mentorship
+* community of contributors
+* rewarding engagement
+* Lightweight process with a focus on outcomes
+* Reliable, high-quality, and clinical-grade software
+* Coherency, consistency, predictability, principle of least surprise
+* Interoperable software
+* Mission and community
+* Mentorship and learning. Openness by default. Diversity.
+* Presumption of good intentions
+* Common practices and tools.
 
 
 ## Norms
 
-- Work to improve our shared environment, not to fragment it.  Releasing competitive forks is incompatible with our shared purpose.
-- Disagree if you like, then align.
-- Similar code style, testing strategies, setup, deployment, packaging across all projects.
+* Work to improve our shared environment, not to fragment it.  Releasing competitive forks is incompatible with our shared purpose.
+* Disagree if you like, then align.
+* Similar code style, testing strategies, setup, deployment, packaging across all projects.
