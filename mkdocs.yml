@@ -3,7 +3,7 @@
 # https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins
 
 site_name: biocommons
-use_directory_urls: false
+use_directory_urls: true
 
 
 plugins:
