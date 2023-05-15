@@ -49,29 +49,43 @@ moderated to cut down spam.
 
 *what motivates us?*
 
-* writing high-quality code and engaging in good engineering practices
-* assume good intentions
-* be transparent
-* interoperability, think about the whole
-* high quality 
+* Solve real problems, not imagined ones.
+  - Key stakeholders / project decision-makers
+  - Ground decisions in data and use cases
+
+* High-quality engineering practice 
+  - writing high-quality code and engaging in good engineering practices
+  - interoperability, think about the whole
+  - high quality 
+  - interoperability
+  - consistency
+  - Reliable, high-quality, and clinical-grade software
+
+* Efficient teamwork
+* Lightweight process with a focus on outcomes
 * minimal friction / transparent process / minimal frustration
+
+* Individual integrity
+  - assume good intentions
+  - be transparent
+  - Presumption of good intentions
+  - Speak plainly
+  - Acknowledge mistakes
+
+* Build community
+* mentorship
+* rewarding engagement
+
+
 * Roadmap planning
 * blocker elimination mechanism
-* Key stakeholders / project decision-makers
-* interoperability
-* consistency
 * encourage contributions
 * encourage input on directions
-* mentorship
 * community of contributors
-* rewarding engagement
-* Lightweight process with a focus on outcomes
-* Reliable, high-quality, and clinical-grade software
 * Coherency, consistency, predictability, principle of least surprise
 * Interoperable software
 * Mission and community
 * Mentorship and learning. Openness by default. Diversity.
-* Presumption of good intentions
 * Common practices and tools.
 
 
