@@ -11,5 +11,10 @@
     <p/>
     Code is released under <a href="https://opensource.org/licenses/Apache-2.0">Apache License v2</a> and data are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0 license</a>.</b>
   </div>
+</div>
 
+<div style="color: #fff; font-size: small">
+  commit: {{ git.short_commit }}
+  <br/>date: {{ git.date }}
+  <br/>deployed: {{ now() }}
 </div>

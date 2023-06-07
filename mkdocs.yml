@@ -8,6 +8,7 @@ plugins:
   - autolinks
   - awesome-pages
   - glightbox
+  - macros
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
