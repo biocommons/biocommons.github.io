@@ -22,5 +22,4 @@ at the [hackathon-2023 repo](https://github.com/biocommons/hackathon-2023).
 
 ## Staying connected
 
-Join the [#hackathon-planning](https://app.slack.com/client/TDL15ES3T/C055VVAR77Y).
-You'll need to [join the biocommons slack workspace first](/community/).
+Planning for the hackathon, and announcements during it, will be on the [#hackathon-planning](https://app.slack.com/client/TDL15ES3T/C055VVAR77Y) slack channel.  See [Community](/community/) for how to join.
