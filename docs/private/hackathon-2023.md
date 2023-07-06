@@ -7,8 +7,10 @@ We are having an in-person hackathon on September 17-18, 2023 at [Mindspace San 
 **The hackathon is in-person and open by invitation only** due to space and funding constraints. Factors for invitation are:
 
 - Prior engagement with biocommons
-- Commitment to biocommons mission
+- Commitment to the biocommons mission
+- Commitment and ability to make meaningful contributions during the hackathon
 - Commitment to making future contributions
+- Commitment to our [code of conduct](/code-of-conduct)
 - Diversity of institutions, opinions, ideas, and social factors
 - Uninterrupted attendance both days
 
@@ -17,7 +19,7 @@ below). You will be added to a wait list for consideration as we get closer to t
 
 ## Projects
 
-Projects are still being vetted and should be announced in late June.  When ready, they will appear
+Projects are still being vetted and should be announced in July.  When ready, they will appear
 at the [hackathon-2023 repo](https://github.com/biocommons/hackathon-2023).
 
 ## Staying connected
