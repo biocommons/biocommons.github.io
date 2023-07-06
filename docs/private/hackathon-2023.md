@@ -8,7 +8,7 @@ We are having an in-person hackathon on September 17-18, 2023 at [Mindspace San 
 
 - Prior engagement with biocommons
 - Commitment to the biocommons mission
-- Commitment and ability to make meaningful contributions during the hackathon
+- Commitment to active engagement, focus, and contributions during the hackathon (i.e., no observers, no side projects)
 - Commitment to making future contributions
 - Commitment to our [code of conduct](/code-of-conduct)
 - Diversity of institutions, opinions, ideas, and social factors
