@@ -1,6 +1,6 @@
 # Hackathon 2023
 
-We are having an in-person hackathon on September 17-18, 2023 at [Mindspace San Francisco](https://www.google.com/maps/place/Mindspace+San+Francisco/data=!4m2!3m1!19sChIJ1SY5AOOBhYARpyx2-yXz53M). The goal of the hackathon is to have new and existing collaborators develop and advance Biocommons projects.
+We are having an in-person hackathon on September 17-18, 2023 at [Mindspace San Francisco](https://www.google.com/maps/place/Mindspace+San+Francisco/data=!4m2!3m1!19sChIJ1SY5AOOBhYARpyx2-yXz53M). The goal of the hackathon is to have new and existing collaborators develop and advance biocommons projects.
 
 ## Attendance is Invitation-Only
 
