@@ -17,6 +17,14 @@ We are having an in-person hackathon on September 17-18, 2023 at [Mindspace San 
 If you wish to attend but have not been invited, please introduce yourself on #hackathon-2023 (see
 below). You will be added to a wait list for consideration as we get closer to the event.
 
+## Invitation to students
+
+We will be inviting 1-3 high school, college, or graduate students to participate. We are
+particularly interested in opening opportunities for people who might not otherwise be exposed to
+bioinformatics and scientific collaboration. There are no skills criteria to participate.  If you're
+interested, please contact Reece Hart <reece@harts.net>.
+
+
 ## Projects
 
 Projects are still being vetted and should be announced in July.  When ready, they will appear
@@ -24,4 +32,4 @@ at the [hackathon-2023 repo](https://github.com/biocommons/hackathon-2023).
 
 ## Staying connected
 
-Planning for the hackathon, and announcements during it, will be on the [#hackathon-planning](https://app.slack.com/client/TDL15ES3T/C055VVAR77Y) slack channel.  See [Community](/community/) for how to join.
+Planning for the hackathon, and announcements during it, will be on the [#hackathon-2023](https://app.slack.com/client/TDL15ES3T/C05FPBLML1Y) slack channel.  See [Community](/community/) for how to join.
