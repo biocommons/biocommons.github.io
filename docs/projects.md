@@ -2,7 +2,7 @@
 
 ![projects](projects.drawio.svg){.right}
 
-- [uta](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
+- [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
   translation, validation, and registration service.
   <br/>
   [![anyvar issues](https://img.shields.io/github/issues/biocommons/anyvar)](https://github.com/biocommons/anyvar)
