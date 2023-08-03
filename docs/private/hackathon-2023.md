@@ -22,8 +22,7 @@ below). You will be added to a wait list for consideration as we get closer to t
 We will be inviting 1-3 high school, college, or graduate students to participate. We are
 particularly interested in opening opportunities for people who might not otherwise be exposed to
 bioinformatics and scientific collaboration. There are no skills criteria to participate.  If you're
-interested, please contact Reece Hart <reece@harts.net>.
-
+interested, please introduce yourself on the Slack hackathon-2023 channel (see below).
 
 ## Projects
 
