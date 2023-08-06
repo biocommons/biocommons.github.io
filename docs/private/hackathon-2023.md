@@ -1,9 +1,13 @@
 # Hackathon 2023
 
-We are having an in-person hackathon on September 17-18, 2023 at [Mindspace San
+We are holding our first biocommons hackathon on September 17-18, 2023 at [Mindspace San
 Francisco](https://www.google.com/maps/place/Mindspace+San+Francisco/data=!4m2!3m1!19sChIJ1SY5AOOBhYARpyx2-yXz53M).
 The goal of the hackathon is to have new and existing collaborators develop and advance biocommons
 projects.
+
+This is going to be an exciting event. We have **22 participants from 10 institutions** signed up:
+Boston Children's Hospital, Broad Institute, Color Genomics, Invitae, Mass General Brigham, Mayo
+Clinic, MyOme, Nationwide Children's Hospital, UC Santa Cruz, and WEHI (Australia!).
 
 ## Attendance is Invitation-Only
 
