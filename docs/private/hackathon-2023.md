@@ -21,9 +21,7 @@ Clinic, MyOme, Nationwide Children's Hospital, UC Santa Cruz, and WEHI (Australi
 - Diversity of institutions, opinions, ideas, and social factors
 - Uninterrupted attendance both days
 
-If you wish to attend but have not been invited, please introduce yourself on the Slack
-#hackathon-2023 channel (see below). You will be added to a wait list for consideration as we get
-closer to the event.
+If you wish to attend but have not been invited, please introduce yourself on the Slack #hackathon-2023 channel (see below). You will be added to a wait list for consideration as we get closer to the event.
 
 ## Invitation to students
 
