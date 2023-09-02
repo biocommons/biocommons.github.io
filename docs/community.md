@@ -6,7 +6,7 @@ Please read our Contribution Guidelines (to be written).
 
 <!-- Note to self: refresh link from https://biocommons.slack.com/admin/shared_invites -->
 Slack is the fastest way to get fast answers. [Join biocommons Slack
-workspace](https://join.slack.com/t/biocommons/shared_invite/zt-1wknmereq-QI2WNNvFU5vMdmwNNNa02g),
+workspace](https://join.slack.com/t/biocommons/shared_invite/zt-22itxnqnm-_AVSlu~Mi5jttKqEi1UyNA),
 then introduce yourself on #intros.
 
 ## Documents
