@@ -33,7 +33,10 @@ label.md-nav__title {
 
 
 /* For image centering ideas, see
-   https://dev.to/bdavidxyz/markdown-center-image-39j1 */
+   https://dev.to/bdavidxyz/markdown-center-image-39j1 
+   
+   Switch to https://github.com/Evidlo/markdown_captions
+   */
 
 img.center {
     display: block;
@@ -47,5 +50,3 @@ img.right {
     float: right;
     width: 50%
 }
-
-#00bda4
