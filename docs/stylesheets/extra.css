@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Lato";
+    src: "https://fonts.googleapis.com/css?family=Lato";
+}
+
+
+:root {
+    --md-text-font: "Lato";
+}
+
+
 h2 {
     color: #4051b5;
     border-bottom: thin solid #4051b5;
@@ -35,4 +46,6 @@ img.center {
 img.right {
     float: right;
     width: 50%
-}#00bda4
+}
+
+#00bda4
