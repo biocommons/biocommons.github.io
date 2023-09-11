@@ -11,10 +11,10 @@
     <p/>
     Code is released under <a href="https://opensource.org/licenses/Apache-2.0">Apache License v2</a> and data are released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0 license</a>.</b>
   </div>
-
 </div>
 
-!!! note "Biocommons Hackathon in September 2023"
-
-    The [GA4GH 11th Plenary meeting](https://broadinstitute.swoogo.com/ga4gh11thplenary) will be held in San Francisco September 19-22, 2023. We are
-    currently planning an in-person hackathon in the days before the event.  See [Hackathon 2023](hackathon-2023.md) for more.
+<div style="color: #fff; font-size: small">
+  commit: {{ git.short_commit }}
+  <br/>date: {{ git.date }}
+  <br/>deployed: {{ now() }}
+</div>

@@ -22,3 +22,9 @@ https://psb.stanford.edu/callfor/papers/
 
 
 
+- kebab case
+doc string (see bioutils after Trent's work)
+_logger at top of module
+quotation style
+functools @wraps for decorators
+recommended vscode setup

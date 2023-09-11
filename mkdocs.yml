@@ -10,6 +10,10 @@ plugins:
   - autolinks
   - awesome-pages
   - glightbox
+  - macros
+  - redirects:
+      redirect_maps:
+        "private/hackathon-2023.md": "hackathon-2023.md"
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
@@ -67,8 +71,5 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font:
-    text: Ubuntu
-    code: Roboto Mono
   logo: images/logo.svg
-  favicon: images/logo.png
+  favicon: images/logo.ico
