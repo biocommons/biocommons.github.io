@@ -1,15 +1,39 @@
 # Coding Guidelines
 
-Under development. biocommons.example is target
+## Most Important
+
+- Work in your own forks.
+
+- Create issues for proposed changes.  Discuss major changes there before submitting a PR.
+
+- Name branches as 123-my-issue-title (use "Create a branch" on issue page)
+
+- Strive for consistency within and across projects unless you have a very good reason to do
+  otherwise.
+
+- Limit work just to the topic of a branch, and nothing more.
+
+- NEVER reformat code in a branch.
+
+- Use the biocommons package template for new code.  Existing repos are periodically synchronized
+  with that repo.
+
+- Don't x.y.z pin dependencies. In Python, use `~=x.y`
+
+- Strive for DRYness (Don't Repeat Yourself)
+
+- Test your code before committing
+
+- 
 
 
 ## Coding
 
-- All packages use the Apache License, 2.1.
+- All source code is licensed under the Apache License, 2.1.
 
-- Most packages use the [biocommons.example
+- Packages should use the [biocommons.example
   repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
-  to the example will occasionally be merged into the repos
+  to the example will occasionally be merged into the repos.
 
 - branching main, dev, feature branches, nn-
 
@@ -46,7 +70,7 @@ git tags in order to ensure that released software always corresponds to a git t
 
 ## Branching and Merging Model
 
-![Branching Strategy](/images/branching-strategy.drawio.svg){.right}
+![Branching Strategy](branching-strategy.drawio.svg){.right}
 
 - main is the release branch.
 - release-specific branches, branched off of main and named as x.y, support concurrent
@@ -97,3 +121,10 @@ Pull requests
 Review criteria
 
 Tagging, releasing, changelogs
+
+
+## Other
+
+- We support most recent 3 Python releases; https://devguide.python.org/versions/
+    - 3.9, 3.10, 3.11 now
+    - drop 3.9 and add 3.12 when 3.12 is available
