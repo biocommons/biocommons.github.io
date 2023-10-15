@@ -1,0 +1,19 @@
+docs
+├── CNAME
+├── code-of-conduct.md
+├── community.md
+├── governance.md
+├── hackathon-2023.md
+├── images
+│   ├── branching-model.mmd
+│   ├── branching-model.png
+│   ├── branching-strategy.drawio.svg
+│   ├── logo.ico
+│   ├── logo.svg
+│   └── projects.drawio.svg
+├── index.md
+├── projects.md
+└── stylesheets
+    └── extra.css
+
+3 directories, 14 files
