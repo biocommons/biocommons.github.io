@@ -14,6 +14,9 @@ plugins:
   - redirects:
       redirect_maps:
         "private/hackathon-2023.md": "hackathon-2023.md"
+        "code-of-conduct.md": "community/code-of-conduct.md"
+        "governance.md": "community/governance.md"
+        
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 

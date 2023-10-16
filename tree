@@ -1,8 +1,14 @@
 docs
 ├── CNAME
-├── code-of-conduct.md
-├── community.md
-├── governance.md
+├── community
+│   ├── code-of-conduct.md
+│   ├── getting-connected.md
+│   ├── governance.md
+│   └── index.md
+├── contributing
+│   ├── coding-guidelines.md
+│   ├── getting-started.md
+│   └── index.md
 ├── hackathon-2023.md
 ├── images
 │   ├── branching-model.mmd
@@ -16,4 +22,4 @@ docs
 └── stylesheets
     └── extra.css
 
-3 directories, 14 files
+5 directories, 18 files
