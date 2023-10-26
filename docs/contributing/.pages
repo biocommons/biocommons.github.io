@@ -1,3 +1,4 @@
 nav:
-    - welcome.md
+    - index.md
     - coding-guidelines.md
+    - ...

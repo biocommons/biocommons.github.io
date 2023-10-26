@@ -53,12 +53,10 @@ theme:
   name: material
 
   features:
+    - navigation.expand
     - navigation.indexes
     - navigation.instant
-    #- navigation.tabs.sticky
-    - navigation.expand
     - navigation.tracking
-    # - navigation.sections
     - search.highlight
     - toc.follow
     - toc.integrate

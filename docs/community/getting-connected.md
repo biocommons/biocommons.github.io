@@ -1,6 +1,6 @@
 # Getting Connected
 
-Please read [Contributing](contributing) for information about how to get involved with the biocommons.
+Please read [Contributing](../contributing/index.md) for information about how to get involved with the biocommons.
 
 ## Documents
 

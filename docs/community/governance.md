@@ -12,15 +12,15 @@ sequence variant interpretation, and to foster a community that develops these t
 
 ## Values and Norms
 
-The biocommons community is founded on shared [values](/community/#values) and
-[norms](/community/#norms). We use minimal organizational structures necessary to promote the
+The biocommons community is founded on shared [values](../community/index.md#values) and
+[norms](../community/index.md#norms). We use minimal organizational structures necessary to promote the
 mission.
 
 ## Membership
 
 Members of the biocommons are individuals who 1) actively contribute to the overall community and 2)
-uphold our [contribution guidelines](/contributing/), [our code of conduct](/code-of-conduct/), and
-[values and norms](/community/). Contributions include activities that further the mission, such as
+uphold our [contribution guidelines](../contributing/index.md), [our code of conduct](../community/code-of-conduct.md), and
+[values and norms](../community/index.md). Contributions include activities that further the mission, such as
 writing documentation, providing technical assistance in forums, triaging issues, managing projects,
 providing logistics support, and, of course, coding.
 
@@ -74,7 +74,7 @@ Project Teams should have at least two Project Leads, appointed by the Steering 
 Project Leaders are the primary maintainers of the relevant repositories. Project Leaders are
 nominated by the Steering Committee based on recognized domain expertise and sustained contribution
 to the biocommons.  Project Leaders are expected to ensure that project repositories are managed
-consistent with the overall biocommons [contribution guidelines](/contributing/).
+consistent with the overall biocommons [contribution guidelines](../contributing/index.md).
 
 ### Other Teams and Roles
 

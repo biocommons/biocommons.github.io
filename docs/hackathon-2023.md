@@ -19,7 +19,7 @@ Clinic, MyOme, Nationwide Children's Hospital, UC Santa Cruz, and WEHI (Australi
 - Commitment to the biocommons mission
 - Commitment to active engagement, focus, and contributions during the hackathon (i.e., no observers, no side projects)
 - Commitment to making future contributions
-- Commitment to our [code of conduct](/code-of-conduct)
+- Commitment to our [code of conduct](code-of-conduct.md)
 - Diversity of institutions, opinions, ideas, and social factors
 - Uninterrupted attendance both days
 
@@ -45,4 +45,4 @@ at the [hackathon-2023 repo](https://github.com/biocommons/hackathon-2023).
 
 ## Staying connected
 
-Planning for the hackathon, and announcements during it, will be on the [#hackathon-2023](https://app.slack.com/client/TDL15ES3T/C05FPBLML1Y) slack channel.  See [Community](/community/) for how to join.
+Planning for the hackathon, and announcements during it, will be on the [#hackathon-2023](https://app.slack.com/client/TDL15ES3T/C05FPBLML1Y) slack channel.  See [Community](community/index.md) for how to join.

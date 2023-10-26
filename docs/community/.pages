@@ -1,4 +1,6 @@
 nav:
+    - index.md
     - getting-connected.md
     - code-of-conduct.md
     - governance.md
+    - ...
