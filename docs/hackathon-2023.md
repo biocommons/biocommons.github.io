@@ -1,5 +1,9 @@
 # Hackathon 2023
 
+!!! note "Hackathon 2023 Slides"
+
+    [Slides](https://docs.google.com/presentation/d/13RZcV5NRpHwQkRfyhiezSh_bnayPntJr6IYkMDsdbzo/edit?usp=sharing) from the hackathon summarize dicsussion topics and accomplishments made.
+
 We held our first biocommons hackathon on September 17-18, 2023 at [Mindspace San
 Francisco](https://www.google.com/maps/place/Mindspace+San+Francisco/data=!4m2!3m1!19sChIJ1SY5AOOBhYARpyx2-yXz53M).
 The goal of the hackathon was to have new and existing collaborators develop and advance biocommons
