@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 ## Values
 
 *what motivates us?*
