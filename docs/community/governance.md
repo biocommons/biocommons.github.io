@@ -37,7 +37,7 @@ The biocommons organization has the following structure:
 - The **Executive Director** oversees the Steering Committee and is generally responsible for
   overall biocommons operations.
 - The **Steering Committee** provides general administrative oversight for the biocommons community.
-- The **Project Teams** plan and coordinate development activities within their projects,
+- The **Maintainers** plan and coordinate development activities within and across projects,
   consistent with biocommons architectural directions.
 
 ### Executive Director

@@ -32,7 +32,11 @@ moderated to cut down spam.
   Discussion list for developers of biocommons tools.
 
 * [biocommons-hacakathons](https://groups.google.com/g/biocommons-hackathons)
-  Discussion list for biocommons hackathons.
+  Discussion list for biocommons hackathons (and very quiet betwen them).
+
+* [biocommons-maintainers](https://groups.google.com/g/biocommons-maintainers)
+  Discussion list for biocommons maintainers. Maintainers are automatically added and can post;
+  viewable (read-only) by everyone else.
 
 * [biocommons-users](https://groups.google.com/g/biocommons-users)
   Discussion list for users to ask and answer questions about tools.
@@ -41,3 +45,21 @@ moderated to cut down spam.
 
 * [hgvs-discuss](https://groups.google.com/g/hgvs-discuss) **DEPRECATED**  Previously used to
   discuss the hgvs package. 
+
+## Meetings
+
+There are currently two recurring meetings relevant to the community:
+
+* **biocommons collective coding**: Second Monday, 8:30-11:30 am PT, open to everyone ([add to
+  calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3RsbnQ2bnVlcDBkbXNnaTZyMHJ1YXNjcGpfMjAyNDAxMDhUMTYzMDAwWiByZWVjZUBoYXJ0cy5uZXQ&tmsrc=reece%40harts.net&scp=ALL)).
+  Code with the community over Google Meet. Join biocommons-devs (above) to get a calendar
+  invitation. This is a good opportunity to ask and answer questions, collaborate, get input on
+  ideas, etc. Attendance varies month-to-month, so consider coordinating on Slack if you're looking
+  to meet up with someone. Please indicate attendance on Google Calendar.
+
+* **biocommons maintainers meeting**: Fourth Monday, 9-10am PT, mandatory for maintainers and open
+  to everyone ([add to
+  calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cThlNjVlb2NrOTJnNXRpOTllMThycDdzZmRfMjAyNDAzMjVUMTYwMDAwWiByZWVjZUBoYXJ0cy5uZXQ&tmsrc=reece%40harts.net&scp=ALL)).
+  Folks in github maintainers group will be added automatically **Starting March 25, 2024**. This is
+  where we coordinate between projects to ensure that the biocommons evolves coherently. Agenda in
+  meeting notes.
