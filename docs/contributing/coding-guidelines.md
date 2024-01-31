@@ -47,6 +47,15 @@
 
 - most development should be the result of an issue
 
+- Don't catch exceptions unless you expect to respond meaningfully. 
+
+- Configuration: config env vars should be high in the stack, adjacent to other configuration, and
+  passed down.  Env vars should typically not change behavior deep in a call stack. In no
+  circumstance should an env var override an explicit setting higher in the stack. Debugging,
+  logging, and other observability tooling are exceptions to this rule.
+
+- 
+
 ## Issues
 
 ## PRs
