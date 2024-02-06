@@ -35,7 +35,10 @@ Consistency across biocommons
 
 - Strive for DRYness (Don't Repeat Yourself)
 
-- Test your code before committing
+- Test your code before committing. ⇒ precommit hooks
+
+- Makefiles are the entry point for all automation, and used in workflows/actions. Why? Guarantee
+  same behavior local and remote (actions)
 
 
 ## Code formatting
