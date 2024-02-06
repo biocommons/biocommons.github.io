@@ -1,5 +1,18 @@
 # Coding Guidelines
 
+Consistency across biocommons
+
+
+
+## .github
+
+- issue templates
+- workflow templates
+- actions
+
+## biocommons.example
+
+
 ## Most Important
 
 - Work in your own forks.
@@ -24,7 +37,13 @@
 
 - Test your code before committing
 
-- 
+
+## Code formatting
+
+- black
+- isort
+- pylint
+
 
 
 ## Coding
@@ -54,22 +73,31 @@
   circumstance should an env var override an explicit setting higher in the stack. Debugging,
   logging, and other observability tooling are exceptions to this rule.
 
-- 
+
+## Commits
+
+Use Conventional Commits
 
 ## Issues
 
-## PRs
+## PRs and review
+
+- discrete changes; bundled changes that can be logically separated should be
+- Squash & Merge: Recommended/preferred, but not required for PR or for merge
+
+
+## Release process
+
+### Current
+
+### New process
+
+
 
 ## CI/CD
 
 github actions → biocommons pypi
 
-
-## Code formatting
-
-- black
-- isort
-- pylint
 
 
 ## Versioning
@@ -78,6 +106,14 @@ All biocommons tools use [Semantic Versioning](https://semver.org/).  Package ve
 git tags in order to ensure that released software always corresponds to a git tag.
 
 ## Branching and Merging Model
+
+Goals:
+
+- enable (not require) multiple major or multiple minor development and release branches. (hgvs has
+  used this historically) 
+- as simple as possible
+- works with conventional commits
+
 
 ![Branching Strategy](branching-strategy.drawio.svg){.right}
 
@@ -134,6 +170,6 @@ Tagging, releasing, changelogs
 
 ## Other
 
-- We support most recent 3 Python releases; https://devguide.python.org/versions/
-    - 3.9, 3.10, 3.11 now
-    - drop 3.9 and add 3.12 when 3.12 is available
+- We support the three most recent [Python releases](https://devguide.python.org/versions). The
+  release of a new Python version immediately triggers biocommons to add support for a new version
+  and drop support for the current-3 version.
