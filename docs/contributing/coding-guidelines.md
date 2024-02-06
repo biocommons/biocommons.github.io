@@ -2,6 +2,7 @@
 
 Consistency across biocommons
 
+link to vscode setup
 
 
 ## .github
@@ -15,38 +16,53 @@ Consistency across biocommons
 
 ## Most Important
 
+### Process
+
 - Work in your own forks.
-
 - Create issues for proposed changes.  Discuss major changes there before submitting a PR.
-
 - Name branches as 123-my-issue-title (use "Create a branch" on issue page)
-
 - Strive for consistency within and across projects unless you have a very good reason to do
   otherwise.
-
 - Limit work just to the topic of a branch, and nothing more.
-
-- NEVER reformat code in a branch.
-
+- NEVER reformat code while working on a feature.
 - Use the biocommons package template for new code.  Existing repos are periodically synchronized
   with that repo.
-
 - Don't x.y.z pin dependencies. In Python, use `~=x.y`
-
 - Strive for DRYness (Don't Repeat Yourself)
-
 - Test your code before committing. ⇒ precommit hooks
-
 - Makefiles are the entry point for all automation, and used in workflows/actions. Why? Guarantee
   same behavior local and remote (actions)
 
+### Style 
+
+- 100 column width
+- docstring style
+- use double quotes. (Why? Easier to embed single quotes if needed.)
+- _logger at top of module. Use it.
+- YAML confing, not TOML or JSON
+
+### Casing
+
+- executables are kebab-case
+- command line arguments are kebab-case
+- symbols are snake_case
+- class names are PascalCase with capitalized abbeviations like PascalCaseRN
+- camelCase is not used, even for json. (Why? Because json is typically just one
+  embodiment of the data and it needs to work elsewhere)
+
+### Preferred pacakges
+
+- argparse (not click)
+- coloredlogs (not logging)
+- PyYAML
+- requests
+- smart-open
 
 ## Code formatting
 
 - black
 - isort
 - pylint
-
 
 
 ## Coding
