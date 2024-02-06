@@ -73,8 +73,6 @@ link to vscode setup
   repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
   to the example will occasionally be merged into the repos.
 
-- branching main, dev, feature branches, nn-
-
 - 1-3 project leads are code owners. They are expected to meet and discuss as needed.
 - Code owners may commit directly. Everyone else needs to submit a PR from a fork.
 - All branches and PRs should be tied to a github issue for that repo with standard naming conventions.
@@ -99,11 +97,17 @@ Use Conventional Commits
 
 ## Issues
 
+- Features: Imperative, like "Enable federated network data sources"
+- Bugs: Statement, like "Federated data sources crash with nematode sequences"
+
+
 ## PRs and review
 
 - discrete changes; bundled changes that can be logically separated should be
-- Squash & Merge: Recommended/preferred, but not required for PR or for merge
-
+- Squash & Merge: Recommended/preferred, but not required for PR submission or for merge
+- PRs generally require one approval.  Ideally, approval should be sought from a second institution
+  as well. Exception: Administrative changes may be committed directly by the executive director
+  as we transition to community management.
 
 ## Release process
 
@@ -115,14 +119,16 @@ Use Conventional Commits
 
 ## CI/CD
 
-github actions → biocommons pypi
+- github actions → biocommons pypi
 
-
+- actions should use makefile targets to promote consistency
 
 ## Versioning
 
 All biocommons tools use [Semantic Versioning](https://semver.org/).  Package versions are derived from
-git tags in order to ensure that released software always corresponds to a git tag.
+git tags in order to ensure that released software always corresponds to a git tag.  There is no "v"
+in the version tag.
+
 
 ## Branching and Merging Model
 
@@ -156,35 +162,9 @@ the issue.
 
 ## Coding Guidelines
 
-example repo
-
-Code in biocommons org
-
-
-Example repo
-Consistent setup from template
-
-versioning
-
-- semver
-- no v
-- directly from tag when possible
-- branching model
-- multiple version branches
-- dev in forks
+- example repo
 - protected branches
-- https://gist.github.com/chalasr/fd195d83a0a01e4291a8
 - Atomic Commits http://en.wikipedia.org/wiki/Atomic_commit#Atomic_Commit_Convention
-
-Pull requests
-
-- squash if you want before the PR
-- branch names 6-go-bonkers
-- Merge commit message used as default for changelog
-
-Review criteria
-
-Tagging, releasing, changelogs
 
 
 ## Other
