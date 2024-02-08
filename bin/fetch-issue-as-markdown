@@ -1,0 +1,19 @@
+#!/bin/bash
+
+r="$1"; shift  # repo half-slug
+n="$1"; shift  # issue number
+jtmp="/tmp/$r-$n.json"
+
+gh issue view --json title,body,number,url --repo biocommons/$r $n >$jtmp
+
+title=$(jq -r '.title' <$jtmp)
+url=$(jq -r '.url' <$jtmp)
+body=$(jq -r '.body' <$jtmp)
+
+cat <<EOF
+# $title
+
+[biocommons/$r#$n]($url)
+
+$body
+EOF
