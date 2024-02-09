@@ -1,40 +1,25 @@
 # Getting Started
 
-New to Biocommons and looking for ways to contribute? The best way to get started is to sign up on
-the [Biocommons Slack](getting-connected.md#slack) and introduce yourself in the #intros channel! You should
-also join one or more [Biocommons discussion lists](getting-connected.md#discussion-lists).
+Hi! We're glad that you're thinking about joining the community of contributors.  There's a lot to
+do and many ways to contribute to the biocommons!
 
-If you have a specific feature in mind for a Biocommons product, create an issue following our
-[coding guidelines](coding-guidelines.md#issues) to get in touch with a project team.
+Your first step in joining use should be to [get connected with the
+community](getting-connected.md). Be sure to introduce yourself in the #intros channel! 
 
+If you have a specific feature in mind for a biocommons product, feel free to open the topic on
+slack or create an issue in the appropriate project.
 
 ## Ways to Contribute
 
-- Write code
-- Triage issues and help users on mailing lists
-- Clarify features to be developed
-- Write and edit documentation
-- Update and release SeqRepo and UTA
-- Help with community projects, like the [upcoming hackathon](hackathon-2023.md)
-
-
---- 
-
-
-Hi! We're glad that you're thinking about joining the community of contributors.  There's a lot to
-do and many ways to contribute to the biocommons!
+There are many ways to contribute to the biocommons!
 
 ![Alt text](ways-to-help.png){width=70%; }
 
 
-
 ### Still not sure how to contribute? Here are a few ideas to get started.
 
-1. **Ask yourself what you like to do and what would you want to learn.**
+1. Ask yourself what you like to do and what would you want to learn.
 
-1. **Browse the roadmap and issues** 
+1. Browse the roadmap and issues.
 
-1. **Introduce yourself on slack and ask for guidance.** 
-
-
-
+1. Introduce yourself on slack and ask for guidance.
