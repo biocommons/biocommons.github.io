@@ -28,3 +28,7 @@ Deployment is manual, not using GitHub actions.
     source venv/bin/activate
     make deploy
 
+## Redirect map
+
+In order to ensure the continuity of urls, docs/redirect-map.yml tracks markdown file paths that
+have existed at any time.  Use `make update-redirect-map` to update the file.

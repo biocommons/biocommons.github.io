@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+
+"""maintains an add/append-only list of known content paths in a yaml file, with optional redirects when moved or deleted
+
+Currently, only markdown (.md) content is tracked
+
+The yaml file looks like this:
+
+```
+# When a file is first found, the value is set to None
+an-existing/path.md: None
+
+# If a key with value None is missing, a warning will be emitted
+a-previously-existing/path.md: null
+⇒ "Not found: a-previously-existing/path.md no longer exists"
+
+# If no one cares about that path, it can be commented out (or removed)
+# an-old-irrelevant/path.md was deleted and will not be redirected 
+#an-old-irrelevant/path.md: null
+
+# Or, if a redirect is desired, it may be added manually
+# an-old-redirected/path.md was updated to new/path.md and will be redirected
+an-old-redirected/path.md: new/path.md
+```
+
+"""
+
+import logging
+from pathlib import Path
+import os
+import sys
+
+import yaml
+
+_logger = logging.getLogger()
+redirect_map_path = Path("redirect-map.yml")
+doc_root = Path("")
+
+    
+if __name__ == "__main__":
+    import coloredlogs
+    coloredlogs.install(level="INFO")
+    
+    paths_missing = 0
+    paths_error = 0
+    paths_added = 0
+    
+    try:
+        redirect_map = yaml.safe_load(redirect_map_path.open())
+    except FileNotFoundError:
+        redirect_map = {}
+    
+    # Warn about any newly-missing paths
+    for path_str, redirect_str in redirect_map.items():
+        if redirect_str is None:
+            if not Path(path_str).exists():
+                paths_missing += 1
+                _logger.warning("%s was moved/deleted; add redirect or comment out", path_str)
+        else:  # redirect is not None
+            if Path(path_str).exists():
+                _logger.error("%s: redirect for existing file", path_str)
+            if redirect_str in redirect_map:
+                paths_error += 1
+                _logger.warning("%s: path is a redirect to a redirect; please update", path_str)
+                continue
+            if not Path(redirect_str).exists():
+                paths_error += 1
+                _logger.warning("%s: redirect points to non-existing file", path_str)
+        
+    # Add new paths
+    for path in doc_root.glob("**/*.md"):
+        path_str = path.as_posix()
+        if path_str not in redirect_map:
+            redirect_map[path_str] = None
+            paths_added += 1
+    
+    if redirect_map_path.exists():
+        os.rename(redirect_map_path, f"{redirect_map_path}~")
+    yaml.safe_dump(redirect_map, redirect_map_path.open("w"))
+    _logger.info(f"{paths_missing=}, {paths_added=}")
+    
+    if (paths_error or paths_missing):
+        sys.exit(1)

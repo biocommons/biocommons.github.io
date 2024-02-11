@@ -9,6 +9,8 @@ deploy:
 serve:
 	mkdocs serve
 
+update-redirect-map:
+	cd docs; ../bin/update-redirect-map
 
 check-links:
 	mkdocs build
