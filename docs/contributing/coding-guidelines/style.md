@@ -15,11 +15,12 @@
 
 ### Casing
 
-- executables are kebab-case
-- command line arguments are kebab-case
-- symbols are snake_case
-- class names are PascalCase with capitalized abbeviations like PascalCaseRN
-- camelCase is not used, even for json. (Why? Because json is typically just one
+- executables are `kebab-case`
+- command line arguments are `kebab-case`
+- symbols (variables, functions/methods, etc) are `snake_case`
+- constants are `SCREAMING_SNAKE_CASE`
+- class names are `PascalCase` with capitalized abbeviations like `CLIOptions`
+- `camelCase` is not used, even for json. (Why? Because json is typically just one
   embodiment of the data and it needs to work elsewhere)
 
 

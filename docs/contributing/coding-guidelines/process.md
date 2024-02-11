@@ -1,10 +1,16 @@
 # Source Code Management
 
+## Permissions
+
+- All biocommons repos are managed by a single
+  [`@biocommons/maintainers`](https://github.com/orgs/biocommons/teams/maintainers) team.
+- All repos have branch protections on the main branch. 
+
 
 
 ## Coding and committing
 
-- Create issues for proposed changes.  Discuss major changes there before submitting a PR.
+- Create an issue for proposed changes.  Discuss major changes before submitting a PR.
 - Work in your own forks.
 - Name branches as 123-my-issue-title (use "Create a branch" on issue page)
 - Limit work just to the topic of a branch, and nothing more.
