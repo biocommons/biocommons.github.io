@@ -31,3 +31,11 @@
 - _logger at top of module. Use it.
 - Use the biocommons package template for new code.  Existing repos are periodically synchronized
   with that repo.
+
+### Preferred pacakges
+
+- argparse (not click)
+- coloredlogs (not logging)
+- PyYAML
+- requests
+- smart-open
