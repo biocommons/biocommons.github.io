@@ -3,7 +3,11 @@ community/getting-connected.md: null
 community/governance.md: null
 community/index.md: null
 community/values.md: null
-contributing/coding-guidelines.md: null
+contributing/coding-guidelines.md: contributing/coding-guidelines/index.md
+contributing/coding-guidelines/index.md: null
+contributing/coding-guidelines/process.md: null
+contributing/coding-guidelines/standards.md: null
+contributing/coding-guidelines/style.md: null
 contributing/getting-started.md: null
 contributing/index.md: null
 contributing/tools.md: null

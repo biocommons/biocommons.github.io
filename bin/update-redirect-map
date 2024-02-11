@@ -59,7 +59,7 @@ if __name__ == "__main__":
         else:  # redirect is not None
             if Path(path_str).exists():
                 _logger.error("%s: redirect for existing file", path_str)
-            if redirect_str in redirect_map:
+            if redirect_str in redirect_map and redirect_map[redirect_str] is not None:
                 paths_error += 1
                 _logger.warning("%s: path is a redirect to a redirect; please update", path_str)
                 continue
