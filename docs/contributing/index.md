@@ -5,5 +5,5 @@ Thank you for your interest in contributing to the biocommons! We welcome your p
 biocommons projects use shared technical standards and coding guidelines in order to operate
 consistently and coherently, and to facilitate contributors moving between projects.
 
-[biocommons-maintainers](https://groups.google.com/g/biocommons-maintainers) will enforce these
+[`@biocommons/maintainers`](https://github.com/orgs/biocommons/teams/maintainers) will enforce these
 guidelines for all contrinbutions.

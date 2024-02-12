@@ -27,6 +27,9 @@ moderated to cut down spam.
   Discussion list for biocommons maintainers. Maintainers are automatically added and can post;
   viewable (read-only) by everyone else.
 
+  The [GitHub `@biocommons/maintainers` group](https://github.com/orgs/biocommons/teams/maintainers)
+  contains the same members as the Google group.
+
 * [biocommons-users](https://groups.google.com/g/biocommons-users)
   Discussion list for users to ask and answer questions about tools.
 
@@ -65,8 +68,3 @@ manuscripts, and similar documents.
 Slack is the fastest way to get fast answers. [Join biocommons Slack
 workspace](https://join.slack.com/t/biocommons/shared_invite/zt-22itxnqnm-_AVSlu~Mi5jttKqEi1UyNA),
 then introduce yourself on #intros.
-
-## GitHub
-
-Individuals who contribute to the biocommons will be added to the [biocommons
-organization](https://github.com/orgs/biocommons/people).  
