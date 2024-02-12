@@ -1,11 +1,12 @@
 # Getting Connected
 
-Please read [Contributing](../contributing/index.md) for information about how to get involved with the biocommons.
+Welcome! This page describes how to connect with other members of the community through email,
+regular meetings, slack, and planning documents.  After you're connected, please read [read how you
+can contribute](../contributing/index.md).
+
+!!! notice "Google groups are used to grant access to files, invite people to meetings, and, of course, for email distribution."
 
 ## Groups
-
-!!! info "Google groups are used to grant access to files, invite people to meetings, and, of course, for email distribution."
-
 
 **Announcement lists** are for announcements only; anyone may join, but posting is limited. 
 

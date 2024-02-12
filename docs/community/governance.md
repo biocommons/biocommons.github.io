@@ -10,12 +10,6 @@ The goal of the biocommons community is to accelerate research, promote data sha
 human health by collaborating on interoperable, high-quality, bioinformatics software and data for
 sequence variant interpretation, and to foster a community that develops these tools.
 
-## Values and Norms
-
-The biocommons community is founded on shared [values](../community/index.md#values) and
-[norms](../community/index.md#norms). We use minimal organizational structures necessary to promote the
-mission.
-
 ## Membership
 
 Members of the biocommons are individuals who 1) actively contribute to the overall community and 2)
@@ -65,16 +59,20 @@ The Steering Committee:
 - Arranges technical and systems administration support, such as AWS infrastructure and web site
   development.
 
-### Project Teams
+### Maintainers
 
-Project Teams are responsible for planning and coordinating development activities within their
-projects. A project typically corresponds to one or more related source code repositories.
+The [biocommons-maintainers](https://groups.google.com/g/biocommons-maintainers) are selected by the
+Steering Committee based upon consistent and high-quality contributions to code and issue
+repositories, demonstrated collaborative attitude, and meaninful contributions to the community.
 
-Project Teams should have at least two Project Leads, appointed by the Steering Committee. The
-Project Leaders are the primary maintainers of the relevant repositories. Project Leaders are
-nominated by the Steering Committee based on recognized domain expertise and sustained contribution
-to the biocommons.  Project Leaders are expected to ensure that project repositories are managed
-consistent with the overall biocommons [contribution guidelines](../contributing/index.md).
+Maintainers:
+
+- Triage and respond to issues
+- Review pull requests and provide actionable comments
+- Attend the monthly maintainers meeting (see [Getting Connected](getting-connected.md))
+- Uphold [contribution guidelines](../contributing/index.md)
+
+Conversely, maintainers who no longer meet this criteria will be removed from the group.
 
 ### Other Teams and Roles
 

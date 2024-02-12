@@ -4,7 +4,7 @@
 
 site_name: biocommons
 use_directory_urls: true
-strict: true
+# strict: true
 
 plugins:
   - autolinks
@@ -18,7 +18,6 @@ plugins:
         "governance.md": "community/governance.md"
         
   - search
-  #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
 markdown_extensions:
   - abbr
