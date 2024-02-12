@@ -1,12 +1,16 @@
 # Source Code Management
 
+## Issues
+
+- Features: Imperative, like "Enable federated network data sources"
+- Bugs: Statement, like "Federated data sources crash with nematode sequences"
+
+
 ## Permissions
 
-- All biocommons repos are managed by a single
+- All repos have branch protections on the main branch.
+- All repos are managed by a single
   [`@biocommons/maintainers`](https://github.com/orgs/biocommons/teams/maintainers) team.
-- All repos have branch protections on the main branch. 
-
-
 
 ## Coding and committing
 
