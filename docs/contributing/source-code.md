@@ -25,6 +25,7 @@
 
 ## PRs and review
 
+- PRs should include docs and tests (but up to the code owners).
 - discrete changes; bundled changes that can be logically separated should be
 - Squash & Merge: Recommended/preferred, but not required for PR submission or for merge
 - PRs generally require one approval.  Ideally, approval should be sought from a second institution
