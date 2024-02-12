@@ -50,3 +50,7 @@ img.right {
     float: right;
     width: 50%
 }
+
+li.md-nav__item.md-nav__item--active {
+    padding: 0 !important;
+}
