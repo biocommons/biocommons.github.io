@@ -13,10 +13,10 @@ plugins:
   - macros
   - redirects:
       redirect_maps:
-        "private/hackathon-2023.md": "hackathon-2023.md"
-        "code-of-conduct.md": "community/code-of-conduct.md"
-        "governance.md": "community/governance.md"
-        
+        code-of-conduct.md: community/code-of-conduct.md
+        contributing/getting-started.md: contributing/index.md
+        governance.md: community/governance.md
+        private/hackathon-2023.md: hackathon-2023.md
   - search
 
 markdown_extensions:

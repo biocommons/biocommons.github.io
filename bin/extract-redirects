@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+from pathlib import Path
+import sys
+
+import yaml
+
+redirect_map_path = Path(sys.argv[1])
+
+if __name__ == "__main__":
+    redirect_map = yaml.safe_load(redirect_map_path.open())
+    redirect_map = {k: v for k, v in redirect_map.items()
+                    if v is not None}
+    yaml.safe_dump(redirect_map, sys.stdout)
+    
