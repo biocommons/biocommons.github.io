@@ -66,3 +66,7 @@ Slack is the fastest way to get fast answers. [Join biocommons Slack
 workspace](https://join.slack.com/t/biocommons/shared_invite/zt-22itxnqnm-_AVSlu~Mi5jttKqEi1UyNA),
 then introduce yourself on #intros.
 
+## GitHub
+
+Individuals who contribute to the biocommons will be added to the [biocommons
+organization](https://github.com/orgs/biocommons/people).  
