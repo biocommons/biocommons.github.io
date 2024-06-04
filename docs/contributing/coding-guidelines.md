@@ -134,4 +134,4 @@ Tagging, releasing, changelogs
 
 ## Other
 
-- We support the most recent 3 Python releases per the official [Python developer's guide](https://devguide.python.org/versions/): 3.10, 3.11, and 3.12
+- We support the three most recent [full Python releases](https://devguide.python.org/versions/): 3.10, 3.11, and 3.12
