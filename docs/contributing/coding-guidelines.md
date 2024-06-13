@@ -29,7 +29,7 @@
 
 ## Coding
 
-- All source code is licensed under the Apache License, 2.1.
+- All source code is licensed under the Apache License, 2.0.
 
 - Packages should use the [biocommons.example
   repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates

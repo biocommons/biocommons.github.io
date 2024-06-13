@@ -7,74 +7,75 @@ use_directory_urls: true
 strict: true
 
 plugins:
-  - autolinks
-  - awesome-pages
-  - glightbox
-  - macros
-  - redirects:
-      redirect_maps:
-        "private/hackathon-2023.md": "hackathon-2023.md"
-        "code-of-conduct.md": "community/code-of-conduct.md"
-        "governance.md": "community/governance.md"
-        
-  - search
-  #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
+- autolinks
+- awesome-pages
+- glightbox
+- macros
+- redirects:
+    redirect_maps:
+      "private/hackathon-2023.md": "hackathon-2023.md"
+      "code-of-conduct.md": "community/code-of-conduct.md"
+      "governance.md": "community/governance.md"
+      "files.md": "https://drive.google.com/drive/folders/1g520Cz2PBTXbLV1MxPXgY5h_EO4WHj0T"
+
+- search
+#- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
 markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - toc:
-      toc_depth: 2
-      permalink: "#"
+- abbr
+- admonition
+- attr_list
+- def_list
+- pymdownx.details
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- toc:
+    toc_depth: 2
+    permalink: "#"
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/biocommons/
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/company/biocommons/
-    - icon: fontawesome/brands/slack
-      link: https://biocommons.slack.com/
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/biocommons/
+  - icon: fontawesome/brands/github
+    link: https://github.com/biocommons/
+  - icon: fontawesome/brands/linkedin
+    link: https://linkedin.com/company/biocommons/
+  - icon: fontawesome/brands/slack
+    link: https://biocommons.slack.com/
+  - icon: fontawesome/brands/docker
+    link: https://hub.docker.com/u/biocommons/
 
 extra_css:
-  - stylesheets/extra.css
+- stylesheets/extra.css
 
 theme:
   name: material
 
   features:
-    - navigation.expand
-    - navigation.indexes
-    - navigation.instant
-    - navigation.tracking
-    - search.highlight
-    - toc.follow
-    - toc.integrate
+  - navigation.expand
+  - navigation.indexes
+  - navigation.instant
+  - navigation.tracking
+  - search.highlight
+  - toc.follow
+  - toc.integrate
 
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: teal
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: indigo
+    accent: teal
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: indigo
+    accent: teal
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
   logo: images/logo.svg
   favicon: images/logo.ico
