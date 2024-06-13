@@ -24,12 +24,12 @@
 
 - Test your code before committing
 
-- 
+-
 
 
 ## Coding
 
-- All source code is licensed under the Apache License, 2.1.
+- All source code is licensed under the Apache License, 2.0.
 
 - Packages should use the [biocommons.example
   repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
@@ -47,14 +47,14 @@
 
 - most development should be the result of an issue
 
-- Don't catch exceptions unless you expect to respond meaningfully. 
+- Don't catch exceptions unless you expect to respond meaningfully.
 
 - Configuration: config env vars should be high in the stack, adjacent to other configuration, and
   passed down.  Env vars should typically not change behavior deep in a call stack. In no
   circumstance should an env var override an explicit setting higher in the stack. Debugging,
   logging, and other observability tooling are exceptions to this rule.
 
-- 
+-
 
 ## Issues
 
@@ -83,7 +83,7 @@ git tags in order to ensure that released software always corresponds to a git t
 
 - main is the release branch.
 - release-specific branches, branched off of main and named as x.y, support concurrent
-  patch release off the x.y 
+  patch release off the x.y
 - dev is the development branch for integration testing.
 - feature development occurs in feature branches, branched off of dev and named for the
   corresponding issue (e.g., 42-bang-the-rocks-together).
