@@ -9,6 +9,7 @@
 - [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
   translation, validation, and registration service.
   <br/>
+  [![anyvar pulse](images/pulse.png "anyvar pulse")](https://github.com/biocommons/anyvar/pulse/monthly)
   [![anyvar stars](https://img.shields.io/github/stars/biocommons/anyvar)](https://github.com/biocommons/anyvar)
   [![anyvar forks](https://img.shields.io/github/forks/biocommons/anyvar)](https://github.com/biocommons/anyvar)
   [![anyvar issues](https://img.shields.io/github/issues/biocommons/anyvar)](https://github.com/biocommons/anyvar)
@@ -18,6 +19,7 @@
 - [bioutils](https://github.com/biocommons/bioutils) provides common tools and lookup tables used
   primarily by the hgvs and uta packages
   <br/>
+  [![bioutils pulse](images/pulse.png "bioutils pulse")](https://github.com/biocommons/bioutils/pulse/monthly)
   [![bioutils stars](https://img.shields.io/github/stars/biocommons/bioutils)](https://github.com/biocommons/bioutils)
   [![bioutils forks](https://img.shields.io/github/forks/biocommons/bioutils)](https://github.com/biocommons/bioutils)
   [![bioutils issues](https://img.shields.io/github/issues/biocommons/bioutils)](https://github.com/biocommons/bioutils)
@@ -27,6 +29,7 @@
 - [eutils](https://github.com/biocommons/eutils) simplifies searching, fetching, and parsing records
   from NCBI using their E-utilities interface
   <br/>
+  [![eutils pulse](images/pulse.png "eutils pulse")](https://github.com/biocommons/eutils/pulse/monthly)
   [![eutils stars](https://img.shields.io/github/stars/biocommons/eutils)](https://github.com/biocommons/eutils)
   [![eutils forks](https://img.shields.io/github/forks/biocommons/eutils)](https://github.com/biocommons/eutils)
   [![eutils issues](https://img.shields.io/github/issues/biocommons/eutils)](https://github.com/biocommons/eutils)
@@ -36,6 +39,7 @@
 - [hgvs](https://github.com/biocommons/hgvs) parses, formats, validates, normalizes,
   and transforms sequence variant expressions according to [HGVS Nomenclature](https://hgvs-nomenclature.org/)
   <br/>
+  [![hgvs pulse](images/pulse.png "hgvs pulse")](https://github.com/biocommons/hgvs/pulse/monthly)
   [![hgvs stars](https://img.shields.io/github/stars/biocommons/hgvs)](https://github.com/biocommons/hgvs)
   [![hgvs forks](https://img.shields.io/github/forks/biocommons/hgvs)](https://github.com/biocommons/hgvs)
   [![hgvs issues](https://img.shields.io/github/issues/biocommons/hgvs)](https://github.com/biocommons/hgvs)
@@ -45,6 +49,7 @@
 - [SeqRepo](https://github.com/biocommons/biocommons.seqrepo) stores biological sequences in a
   non-redundant, compressed, journalled, file-based storage.
   <br/>
+  [![biocommons.seqrepo pulse](images/pulse.png "seqrepo pulse")](https://github.com/biocommons/biocommons.seqrepo/pulse/monthly)
   [![biocommons.seqrepo stars](https://img.shields.io/github/stars/biocommons/biocommons.seqrepo)](https://github.com/biocommons/biocommons.seqrepo)
   [![biocommons.seqrepo forks](https://img.shields.io/github/forks/biocommons/biocommons.seqrepo)](https://github.com/biocommons/biocommons.seqrepo)
   [![biocommons.seqrepo issues](https://img.shields.io/github/issues/biocommons/biocommons.seqrepo)](https://github.com/biocommons/biocommons.seqrepo)
@@ -54,6 +59,7 @@
 - The [seqrepo-rest-service](https://github.com/biocommons/seqrepo-rest-service) provides a REST
   interface to biological sequences and sequence metadata using a seqrepo instance backend.
   <br/>
+  [![seqrepo-rest-service pulse](images/pulse.png "seqrepo-rest-service pulse")](https://github.com/biocommons/seqrepo-rest-service/pulse/monthly)
   [![seqrepo-rest-service stars](https://img.shields.io/github/stars/biocommons/seqrepo-rest-service)](https://github.com/biocommons/seqrepo-rest-service)
   [![seqrepo-rest-service forks](https://img.shields.io/github/forks/biocommons/seqrepo-rest-service)](https://github.com/biocommons/seqrepo-rest-service)
   [![seqrepo-rest-service issues](https://img.shields.io/github/issues/biocommons/seqrepo-rest-service)](https://github.com/biocommons/seqrepo-rest-service)
@@ -64,11 +70,22 @@
   of genome-transcript alignments; multiple transcript sources and versions, multiple genomic
   references, and multiple alignment methods, particularly splign (NCBI) and (blat) (UCSC)
   <br/>
+  [![uta pulse](images/pulse.png "uta pulse")](https://github.com/biocommons/uta/pulse/monthly)
   [![uta stars](https://img.shields.io/github/stars/biocommons/uta)](https://github.com/biocommons/uta)
   [![uta forks](https://img.shields.io/github/forks/biocommons/uta)](https://github.com/biocommons/uta)
   [![uta issues](https://img.shields.io/github/issues/biocommons/uta)](https://github.com/biocommons/uta)
   [![uta prs](https://img.shields.io/github/issues-pr/biocommons/uta?color=0088ff)](https://github.com/biocommons/uta/pulls)
   [![uta contributors](https://img.shields.io/github/contributors/biocommons/uta)](https://github.com/biocommons/uta/graphs/contributors)
+
+- [biocommons.example](https://github.com/biocommons/biocommons.example) This is our template repo
+  <br/>
+  [![biocommons.example pulse](images/pulse.png "biocommons.example pulse")](https://github.com/biocommons/biocommons.example/pulse/monthly)
+  [![biocommons.example stars](https://img.shields.io/github/stars/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example)
+  [![biocommons.example forks](https://img.shields.io/github/forks/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example)
+  [![biocommons.example issues](https://img.shields.io/github/issues/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example)
+  [![biocommons.example prs](https://img.shields.io/github/issues-pr/biocommons/biocommons.example?color=0088ff)](https://github.com/biocommons/biocommons.example/pulls)
+  [![biocommons.example contributors](https://img.shields.io/github/contributors/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example/graphs/contributors)
+
 
 ## Related external projects
 
