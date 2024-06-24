@@ -77,6 +77,17 @@
   [![uta prs](https://img.shields.io/github/issues-pr/biocommons/uta?color=0088ff)](https://github.com/biocommons/uta/pulls)
   [![uta contributors](https://img.shields.io/github/contributors/biocommons/uta)](https://github.com/biocommons/uta/graphs/contributors)
 
+## Administrative Repos
+
+- [.github](https://github.com/biocommons/.github) This is our template repo
+  <br/>
+  [![.github pulse](images/pulse.png ".github pulse")](https://github.com/biocommons/.github/pulse/monthly)
+  [![.github stars](https://img.shields.io/github/stars/biocommons/.github)](https://github.com/biocommons/.github)
+  [![.github forks](https://img.shields.io/github/forks/biocommons/.github)](https://github.com/biocommons/.github)
+  [![.github issues](https://img.shields.io/github/issues/biocommons/.github)](https://github.com/biocommons/.github)
+  [![.github prs](https://img.shields.io/github/issues-pr/biocommons/.github?color=0088ff)](https://github.com/biocommons/.github/pulls)
+  [![.github contributors](https://img.shields.io/github/contributors/biocommons/.github)](https://github.com/biocommons/.github/graphs/contributors)
+
 - [biocommons.example](https://github.com/biocommons/biocommons.example) This is our template repo
   <br/>
   [![biocommons.example pulse](images/pulse.png "biocommons.example pulse")](https://github.com/biocommons/biocommons.example/pulse/monthly)
