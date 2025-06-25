@@ -11,7 +11,7 @@ projects.
 
 This was going to be an exciting event. We had **22 participants from 10 institutions** signed up:
 Boston Children's Hospital, Broad Institute, Color Genomics, Invitae, Mass General Brigham, Mayo
-Clinic, MyOme, Nationwide Children's Hospital, UC Santa Cruz, and WEHI (Australia!). 
+Clinic, MyOme, Nationwide Children's Hospital, UC Santa Cruz, and WEHI (Australia!).
 
 ![](hackathon-2023-attendees.jpg)
 
@@ -49,4 +49,4 @@ at the [hackathon-2023 repo](https://github.com/biocommons/hackathon-2023).
 
 ## Staying connected
 
-Planning for the hackathon, and announcements during it, will be on the [#hackathon-2023](https://app.slack.com/client/TDL15ES3T/C05FPBLML1Y) slack channel.  See [Community](community/index.md) for how to join.
+Planning for the hackathon, and announcements during it, will be on the [#hackathon-2023](https://app.slack.com/client/TDL15ES3T/C05FPBLML1Y) slack channel.  See [Community](../community/index.md) for how to join.

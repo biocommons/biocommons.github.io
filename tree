@@ -4,22 +4,38 @@ docs
 │   ├── code-of-conduct.md
 │   ├── getting-connected.md
 │   ├── governance.md
-│   └── index.md
+│   ├── index.md
+│   └── values.md
 ├── contributing
 │   ├── coding-guidelines.md
 │   ├── getting-started.md
-│   └── index.md
-├── hackathon-2023.md
+│   ├── index.md
+│   └── tools.md
+├── files.md
+├── gsoc2024
+│   ├── biocommons.seqrepo#136.md
+│   ├── hgvs-eval#20.md
+│   ├── hgvs#721.md
+│   ├── index.md
+│   └── Makefile
+├── hackathons
+│   ├── hackathon-2023.md
+│   └── hackathon-2025.md
 ├── images
 │   ├── branching-model.mmd
 │   ├── branching-model.png
 │   ├── branching-strategy.drawio.svg
+│   ├── hackathon-2023-attendees.jpg
 │   ├── logo.ico
 │   ├── logo.svg
-│   └── projects.drawio.svg
+│   ├── projects.drawio.svg
+│   ├── pulse.png
+│   ├── pulse.svg
+│   └── ways-to-help.png
 ├── index.md
 ├── projects.md
+├── redirect-map.yml
 └── stylesheets
     └── extra.css
 
-5 directories, 18 files
+7 directories, 32 files
