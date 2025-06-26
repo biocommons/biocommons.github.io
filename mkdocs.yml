@@ -14,6 +14,8 @@ plugins:
 - redirects:
     redirect_maps:
       "private/hackathon-2023.md": "hackathons/2023.md"
+      "hackathons/hackathon-2023.md": "hackathons/2023.md"
+      "hackathons/hackathon-2025.md": "hackathons/2025.md"
       "code-of-conduct.md": "community/code-of-conduct.md"
       "governance.md": "community/governance.md"
       "files.md": "https://drive.google.com/drive/folders/1g520Cz2PBTXbLV1MxPXgY5h_EO4WHj0T"
