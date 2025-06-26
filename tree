@@ -19,8 +19,9 @@ docs
 │   ├── index.md
 │   └── Makefile
 ├── hackathons
-│   ├── hackathon-2023.md
-│   └── hackathon-2025.md
+│   ├── 2023.md
+│   ├── 2025.md
+│   └── index.md
 ├── images
 │   ├── branching-model.mmd
 │   ├── branching-model.png
@@ -38,4 +39,4 @@ docs
 └── stylesheets
     └── extra.css
 
-7 directories, 32 files
+7 directories, 33 files
