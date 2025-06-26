@@ -26,7 +26,7 @@ We’re asking participants to commit to:
 - Supporting the biocommons mission
 - Being actively engaged, focused, and contributing during the hackathon (i.e., no observers, no side projects)
 - Making future contributions
-- Following our [code of conduct](/code-of-conduct)
+- Following our [code of conduct](../community/code-of-conduct.md)
 - Attending all three days in person, without interruption
 
 If you can commit to **everything** listed, please [RSVP](https://forms.gle/UX8oRzGbUJL3LTiYA).
@@ -61,4 +61,4 @@ We will have a more detailed agenda closer to the event.
 ## Staying connected
 
 Planning for the hackathon, and announcements during it, will be on the #hackathon-2025
-slack channel.  See [Community](../community/) for how to join.
+slack channel.  See [Community](../community/getting-connected.md) for how to join.
