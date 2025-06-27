@@ -19,8 +19,9 @@ docs
 │   ├── index.md
 │   └── Makefile
 ├── hackathons
-│   ├── hackathon-2023.md
-│   └── hackathon-2025.md
+│   ├── 2023.md
+│   ├── 2025.md
+│   └── index.md
 ├── images
 │   ├── branching-model.mmd
 │   ├── branching-model.png

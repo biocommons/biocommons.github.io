@@ -15,10 +15,10 @@ If you have a specific feature in mind for a Biocommons product, create an issue
 - Clarify features to be developed
 - Write and edit documentation
 - Update and release SeqRepo and UTA
-- Help with community projects, like the [upcoming hackathon](hackathon-2023.md)
+- Help with community projects, like the [upcoming hackathon](../hackathons/2025.md)
 
 
---- 
+---
 
 
 Hi! We're glad that you're thinking about joining the community of contributors.  There's a lot to
@@ -32,9 +32,9 @@ do and many ways to contribute to the biocommons!
 
 1. **Ask yourself what you like to do and what would you want to learn.**
 
-1. **Browse the roadmap and issues** 
+1. **Browse the roadmap and issues**
 
-1. **Introduce yourself on slack and ask for guidance.** 
+1. **Introduce yourself on slack and ask for guidance.**
 
 
 
