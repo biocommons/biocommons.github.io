@@ -33,7 +33,20 @@ If you can commit to **everything** listed, please [RSVP](https://forms.gle/UX8o
 
 ## Accommodation
 
-More information will be coming soon.
+We have compiled a [list of recommended hotels](https://maps.app.goo.gl/fi57y43SXqwGigdM9)
+to stay at. To simplify transportation and encourage carpooling, we suggest choosing
+from these recommended hotels.
+
+![Google Maps Recommended Hotels](../images/hackathon-2025-recommended-hotels.png)
+
+| Hotel | Stars | Distance |
+| ----- | ----- | -------- |
+| [Home2 Suites by Hilton Columbus Downtown](https://maps.app.goo.gl/gaU5VbbFSWQrcq8v5) | 3 | .7 mile |
+| [Hyatt Regency Columbus](https://maps.app.goo.gl/FW4biQFANn5Scc5i8) | 3 | 2.0 miles |
+| [Drury Plaza Hotel Columbus Downtown](https://maps.app.goo.gl/EDMDPHqpXApuBeQC6) | 3 | 1.9 miles |
+| [Canopy By Hilton Columbus Downtown Short North](https://maps.app.goo.gl/TAgGzuKNcq22msVd7) | 3 | 2.1 miles |
+| [Hilton Columbus Downtown](https://maps.app.goo.gl/QRq3wVp1dQACWgac8) | 4 | 2.1 miles |
+| [Sonesta Columbus Downtown](https://maps.app.goo.gl/hPNS86ZSwWYVw4pH6) | 4 | 2.1 miles |
 
 ## Projects
 
