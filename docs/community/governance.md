@@ -12,8 +12,8 @@ sequence variant interpretation, and to foster a community that develops these t
 
 ## Values and Norms
 
-The biocommons community is founded on shared [values](../community/index.md#values) and
-[norms](../community/index.md#norms). We use minimal organizational structures necessary to promote the
+The biocommons community is founded on shared [values](../community/values.md#values) and
+[norms](../community/values.md#norms). We use minimal organizational structures necessary to promote the
 mission.
 
 ## Membership
