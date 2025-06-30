@@ -10,17 +10,11 @@ The goal of the biocommons community is to accelerate research, promote data sha
 human health by collaborating on interoperable, high-quality, bioinformatics software and data for
 sequence variant interpretation, and to foster a community that develops these tools.
 
-## Values and Norms
-
-The biocommons community is founded on shared [values](../community/values.md#values) and
-[norms](../community/values.md#norms). We use minimal organizational structures necessary to promote the
-mission.
-
 ## Membership
 
 Members of the biocommons are individuals who 1) actively contribute to the overall community and 2)
 uphold our [contribution guidelines](../contributing/index.md), [our code of conduct](../community/code-of-conduct.md), and
-[values and norms](../community/index.md). Contributions include activities that further the mission, such as
+values and norms. Contributions include activities that further the mission, such as
 writing documentation, providing technical assistance in forums, triaging issues, managing projects,
 providing logistics support, and, of course, coding.
 
