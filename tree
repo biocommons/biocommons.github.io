@@ -3,21 +3,13 @@ docs
 ├── community
 │   ├── code-of-conduct.md
 │   ├── getting-connected.md
-│   ├── governance.md
-│   ├── index.md
-│   └── values.md
+│   └── governance.md
 ├── contributing
 │   ├── coding-guidelines.md
 │   ├── getting-started.md
 │   ├── index.md
 │   └── tools.md
 ├── files.md
-├── gsoc2024
-│   ├── biocommons.seqrepo#136.md
-│   ├── hgvs-eval#20.md
-│   ├── hgvs#721.md
-│   ├── index.md
-│   └── Makefile
 ├── hackathons
 │   ├── 2023.md
 │   ├── 2025.md
@@ -30,13 +22,18 @@ docs
 │   ├── logo.ico
 │   ├── logo.svg
 │   ├── projects.drawio.svg
+│   ├── projects.png
 │   ├── pulse.png
 │   ├── pulse.svg
+│   ├── seqrepo.drawio.svg
+│   ├── seqrepo.erd
+│   ├── seqrepo.png
 │   └── ways-to-help.png
 ├── index.md
 ├── projects.md
 ├── redirect-map.yml
+├── redirect-map.yml~
 └── stylesheets
     └── extra.css
 
-7 directories, 33 files
+6 directories, 31 files

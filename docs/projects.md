@@ -79,7 +79,7 @@
 
 ## Administrative Repos
 
-- [.github](https://github.com/biocommons/.github) This is our template repo
+- [.github](https://github.com/biocommons/.github) This is our repo or workflows and issue templates
   <br/>
   [![.github pulse](images/pulse.png ".github pulse")](https://github.com/biocommons/.github/pulse/monthly)
   [![.github stars](https://img.shields.io/github/stars/biocommons/.github)](https://github.com/biocommons/.github)
