@@ -2,7 +2,7 @@
 
 New to Biocommons and looking for ways to contribute? The best way to get started is to sign up on
 the [Biocommons Slack](getting-connected.md#slack) and introduce yourself in the #intros channel! You should
-also join one or more [Biocommons discussion lists](getting-connected.md#discussion-lists).
+also join one or more [Biocommons discussion lists](../community/getting-connected.md#groups).
 
 If you have a specific feature in mind for a Biocommons product, create an issue following our
 [coding guidelines](coding-guidelines.md#issues) to get in touch with a project team.
