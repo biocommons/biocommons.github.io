@@ -9,6 +9,9 @@ deploy:
 serve:
 	mkdocs serve
 
+tree: FORCE
+	tree docs >$@
+
 update-redirect-map:
 	cd docs; ../bin/update-redirect-map
 
