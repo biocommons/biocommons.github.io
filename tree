@@ -19,21 +19,17 @@ docs
 │   ├── branching-model.png
 │   ├── branching-strategy.drawio.svg
 │   ├── hackathon-2023-attendees.jpg
+│   ├── hackathon-2025-recommended-hotels.png
 │   ├── logo.ico
 │   ├── logo.svg
 │   ├── projects.drawio.svg
-│   ├── projects.png
 │   ├── pulse.png
 │   ├── pulse.svg
-│   ├── seqrepo.drawio.svg
-│   ├── seqrepo.erd
-│   ├── seqrepo.png
 │   └── ways-to-help.png
 ├── index.md
 ├── projects.md
 ├── redirect-map.yml
-├── redirect-map.yml~
 └── stylesheets
     └── extra.css
 
-6 directories, 31 files
+6 directories, 27 files
