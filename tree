@@ -7,13 +7,11 @@ docs
 ├── contributing
 │   ├── coding-guidelines.md
 │   ├── getting-started.md
-│   ├── index.md
 │   └── tools.md
 ├── files.md
 ├── hackathons
 │   ├── 2023.md
-│   ├── 2025.md
-│   └── index.md
+│   └── 2025.md
 ├── images
 │   ├── branching-model.mmd
 │   ├── branching-model.png
@@ -23,13 +21,18 @@ docs
 │   ├── logo.ico
 │   ├── logo.svg
 │   ├── projects.drawio.svg
+│   ├── projects.png
 │   ├── pulse.png
 │   ├── pulse.svg
+│   ├── seqrepo.drawio.svg
+│   ├── seqrepo.erd
+│   ├── seqrepo.png
 │   └── ways-to-help.png
 ├── index.md
 ├── projects.md
 ├── redirect-map.yml
+├── redirect-map.yml~
 └── stylesheets
     └── extra.css
 
-6 directories, 27 files
+6 directories, 30 files
