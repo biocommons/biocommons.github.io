@@ -1,11 +1,11 @@
-# Getting Connected
+# Welcome!
 
-Please read [Contributing](../contributing/getting-started.md) for information about how to get involved with the biocommons.
+Looking to contribute? Great! Please read [Contributing](../contributing/index.md) for ways to help
+and guidelines for contributions.
 
 ## Groups
 
 !!! info "Google groups are used to grant access to files, invite people to meetings, and, of course, for email distribution."
-
 
 **Announcement lists** are for announcements only; anyone may join, but posting is limited. 
 
@@ -62,6 +62,5 @@ manuscripts, and similar documents.
 
 <!-- Note to self: refresh link from https://biocommons.slack.com/admin/shared_invites -->
 Slack is the fastest way to get fast answers. [Join biocommons Slack
-workspace](https://join.slack.com/t/biocommons/shared_invite/zt-22itxnqnm-_AVSlu~Mi5jttKqEi1UyNA),
+workspace](https://join.slack.com/t/biocommons/shared_invite/zt-3c1doh2w6-r0SjEi0fOObi_pewD5LEvw),
 then introduce yourself on #intros.
-

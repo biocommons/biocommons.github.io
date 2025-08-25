@@ -1,12 +1,12 @@
-# Getting Started
+# Contributing
 
 Thank you for your interest in contributing to the biocommons community! Contributions are welcome
 and greatly appreciated.  There are many types of contributions and you don't need to be a
 developer!
 
 Your first step should be to connect to the community by joining
-the [Biocommons Slack](getting-connected.md#slack) and introducing yourself in the #intros channel! You should
-also join one or more [Biocommons discussion lists](../community/getting-connected.md#groups).
+the [Biocommons Slack](../community/index.md#slack) and introducing yourself in the #intros channel! You should
+also join one or more [Biocommons discussion lists](../community/index.md#groups).
 
 ## Ways to Contribute
 
@@ -31,7 +31,7 @@ help with triaging issues directly adds to the time that developers can spend fi
 implementing features.  Being a bridge between the community and developers great way for you to
 learn how the tools work if you want to ease into becoming a contributor.
 
-We also have periodic [hackathons](../hackathons), which are fun and work to plan.
+We also have periodic [hackathons](../hackathons/index.md), which are fun and work to plan.
 
 ### Write and maintaining documentation
 
@@ -44,32 +44,8 @@ great way to learn.
 The biocommons maintains SeqRepo and UTA snapshots.  These require experience with the code as well
 as experience with data processing automation and quality control.  If you'd like to help, get in touch!
 
-
-
-
 ### Contribute your superpower!
 
 Do you have other superpowers to lend? Graphics? Project management? Developer experience? Writing?
 Something else?  Great!  Get in touch and let us know how you'd like to contribute.
-
----
-
-If you have a specific feature in mind for a Biocommons product, create an issue following our
-[coding guidelines](coding-guidelines.md#issues) to get in touch with a project team.
-
-Hi! We're glad that you're thinking about joining the community of contributors.  There's a lot to
-do and many ways to contribute to the biocommons!
-
-![Alt text](ways-to-help.png){width=70%; }
-
-
-### Still not sure how to contribute? Here are a few ideas to get started.
-
-1. **Ask yourself what you like to do and what would you want to learn.**
-
-1. **Browse the roadmap and issues**
-
-1. **Introduce yourself on slack and ask for guidance.**
-
-
 

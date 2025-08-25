@@ -68,7 +68,7 @@ Project Teams should have at least two Project Leads, appointed by the Steering 
 Project Leaders are the primary maintainers of the relevant repositories. Project Leaders are
 nominated by the Steering Committee based on recognized domain expertise and sustained contribution
 to the biocommons.  Project Leaders are expected to ensure that project repositories are managed
-consistent with the overall biocommons [contribution guidelines](../contributing/getting-started.md).
+consistent with the overall biocommons [contribution guidelines](../contributing/index.md).
 
 ### Other Teams and Roles
 
