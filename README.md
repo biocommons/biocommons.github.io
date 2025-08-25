@@ -31,4 +31,6 @@ Deployment is manual, not using GitHub actions.
 ## Redirect map
 
 In order to ensure the continuity of urls, docs/redirect-map.yml tracks markdown file paths that
-have existed at any time.  Use `make update-redirect-map` to update the file.
+have existed at any time.  Use `make update-redirect-map` to update the file, then manually copy
+selected redirects to mkdocs.yml in the redirect_map section.  (`mkdocs-redirects` does not
+currenlty support redirects from a file :-()

@@ -1,137 +1,77 @@
 # Coding Guidelines
 
-## Most Important
+biocommons projects use shared technical and coding conventions in order to operate
+consistently and coherently, and to facilitate contributors moving between projects.
 
-- Work in your own forks.
+## General Guidelines
 
-- Create issues for proposed changes.  Discuss major changes there before submitting a PR.
+- **Create issues for proposed changes.**  Most development should be the result of a bug or feature
+  issue.  Discuss major changes there.  This will help coordinate work that might duplicate or
+  conflict with others.
 
-- Name branches as 123-my-issue-title (use "Create a branch" on issue page)
+- **New developers work in forks.** New contributors should work in their own forks. Frequent
+  contributors may ask for write permissions on relevant repos to increase community awareness of
+  their work.
 
-- Strive for consistency within and across projects unless you have a very good reason to do
+- **Submit changes as a pull request.** Code owners may commit directly with discretion, but
+  this should be rare.  Follow [GitHub
+  Guidance](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue)
+  to title PRs like "Fixes \#123: File not found when..." or "Closes \#456:
+  Implement sequence caching".
+
+- **Link branches to issues and follow the branch naming convention.**  Follow [GitHub
+  instructions](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-or-branch-to-an-issue-using-the-issue-sidebar)
+  for linking a branch with an issue.  Use branch names like `123-implement-some-feature`.
+
+- **Contributors should squash commits before submitting a PR.**  Use `git rebase` 
+
+- **Strive for consistency** within and across projects unless you have a very good reason to do
   otherwise.
 
-- Limit work just to the topic of a branch, and nothing more.
+- **Keep PRs focused on a single issue.**  PRs that mix multiple goals are hard to read and
+evalutate. Strive for PRs that result in [atomic
+commits](http://en.wikipedia.org/wiki/Atomic_commit#Atomic_Commit_Convention). For example, don't
+refactor/restructure/reformat code while implementating a feature; instead, separate those goals
+into distinct PRs.
 
-- NEVER reformat code in a branch.
+- **Strive for DRYness (Don't Repeat Yourself).**
 
-- Use the biocommons package template for new code.  Existing repos are periodically synchronized
-  with that repo.
+- **PRs should include tests and documentation.** Test your code before committing. Tests
+  must pass before merging.
 
-- Don't x.y.z pin dependencies. In Python, use `~=x.y`
-
-- Strive for DRYness (Don't Repeat Yourself)
-
-- Test your code before committing
-
--
-
-
-## Coding
+- **Use [Semantic Versioning](https://semver.org/).**  Package versions are derived from
+git tags in order to ensure that released software always corresponds to a git tag. We don't use a
+"v" prefix.
 
 - All source code is licensed under the Apache License, 2.0.
 
-- Packages should use the [biocommons.example
-  repo](https://github.com/biocommons/biocommons.example) to get started, for consistency.  Updates
-  to the example will occasionally be merged into the repos.
+## Python-specific guidelines
 
-- branching main, dev, feature branches, nn-
+- **We test and support at least the three most recent [full Python
+  releases](https://devguide.python.org/versions/) at any point it time.**  We might test and
+  advertise broader availability on a repo-by-repo basis.  However, we never want current
+  development to be limited by a stale version of Python.
 
-- 1-3 project leads are code owners. They are expected to meet and discuss as needed.
-- Code owners may commit directly. Everyone else needs to submit a PR from a fork.
-- All branches and PRs should be tied to a github issue for that repo with standard naming conventions.
-- PRs should include docs and tests (but up to the code owners).
+- **Packages must be based on the [biocommons.example
+  repo](https://github.com/biocommons/biocommons.example).**  Updates
+  to this template will occasionally be merged into the repos.
 
-- All Python packages must use the same structure (pyproject.toml, `__version__` from git, etc).
-  We'll sync with biocommons.example periodically to ensure consistency.
-
-- most development should be the result of an issue
-
-- Don't catch exceptions unless you expect to respond meaningfully.
+- **Don't catch exceptions unless you expect to respond meaningfully.** Mostly it helps to learn to
+  just let it go, just like Elsa.
 
 - Configuration: config env vars should be high in the stack, adjacent to other configuration, and
   passed down.  Env vars should typically not change behavior deep in a call stack. In no
   circumstance should an env var override an explicit setting higher in the stack. Debugging,
   logging, and other observability tooling are exceptions to this rule.
 
--
+---
 
-## Issues
+## Future Work: Topics to Write
 
-## PRs
-
-## CI/CD
-
-github actions → biocommons pypi
-
-
-## Code formatting
-
-- black
-- isort
-- pylint
-
-
-## Versioning
-
-All biocommons tools use [Semantic Versioning](https://semver.org/).  Package versions are derived from
-git tags in order to ensure that released software always corresponds to a git tag.
-
-## Branching and Merging Model
-
-![Branching Strategy](branching-strategy.drawio.svg){.right}
-
-- main is the release branch.
-- release-specific branches, branched off of main and named as x.y, support concurrent
-  patch release off the x.y
-- dev is the development branch for integration testing.
-- feature development occurs in feature branches, branched off of dev and named for the
-  corresponding issue (e.g., 42-bang-the-rocks-together).
-- bug fixes occur in branches off of the affected release. As necessary, those fixes should be then
-  merged back to main.
-
-If a project needs a new development branch for a major release, the Architectural Team will address
-the issue.
-
-### Merging
-
-- Tests must pass in order to be merged. Branches that are failing tests will not be merged.
-- Merging to main and dev is restricted to code owners.
-
-
-## Coding Guidelines
-
-example repo
-
-Code in biocommons org
-
-
-Example repo
-Consistent setup from template
-
-versioning
-
-- semver
-- no v
-- directly from tag when possible
-- branching model
-- multiple version branches
-- dev in forks
-- protected branches
+- Branch, merge, and release strategy
+- Release process, including changelogs
 - https://gist.github.com/chalasr/fd195d83a0a01e4291a8
-- Atomic Commits http://en.wikipedia.org/wiki/Atomic_commit#Atomic_Commit_Convention
-
-Pull requests
-
-- squash if you want before the PR
-- branch names 6-go-bonkers
-- Merge commit message used as default for changelog
-
-Review criteria
-
-Tagging, releasing, changelogs
-
-
-## Other
-
-- We support the three most recent [full Python releases](https://devguide.python.org/versions/): 3.10, 3.11, and 3.12
+- vscode setup: common extensions, devcontainers, formatters
+- sample coding session: issue, branch, code, test, format, push, request PR, merge
+- semantic release
+- commit message formats
