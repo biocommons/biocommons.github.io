@@ -28,7 +28,11 @@ consistently and coherently, and to facilitate contributors moving between proje
 - **Strive for consistency** within and across projects unless you have a very good reason to do
   otherwise.
 
-- **Keeps PRs focused on the issue.** PRs that mix multiple goals are hard to read and evalutate. For example, don't refactor/restructure/reformat code while implementating a feature; instead, separate those goals into distinct PRs.
+- **Keep PRs focused on a single issue.**  PRs that mix multiple goals are hard to read and
+evalutate. Strive for PRs that result in [atomic
+commits](http://en.wikipedia.org/wiki/Atomic_commit#Atomic_Commit_Convention). For example, don't
+refactor/restructure/reformat code while implementating a feature; instead, separate those goals
+into distinct PRs.
 
 - **Strive for DRYness (Don't Repeat Yourself).**
 
@@ -67,4 +71,7 @@ git tags in order to ensure that released software always corresponds to a git t
 - Branch, merge, and release strategy
 - Release process, including changelogs
 - https://gist.github.com/chalasr/fd195d83a0a01e4291a8
-- Atomic Commits http://en.wikipedia.org/wiki/Atomic_commit#Atomic_Commit_Convention
+- vscode setup: common extensions, devcontainers, formatters
+- sample coding session: issue, branch, code, test, format, push, request PR, merge
+- semantic release
+- commit message formats
