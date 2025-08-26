@@ -23,7 +23,9 @@ consistently and coherently, and to facilitate contributors moving between proje
   instructions](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-or-branch-to-an-issue-using-the-issue-sidebar)
   for linking a branch with an issue.  Use branch names like `123-implement-some-feature`.
 
-- **Contributors should squash commits before submitting a PR.**  Use `git rebase` 
+- **Contributors should squash commits before submitting a PR if they wish to do so.**  Squash on PR
+  merge is disabled because it leaves dangling branches, and because cleanup should be a contributor
+  responsibility.
 
 - **Strive for consistency** within and across projects unless you have a very good reason to do
   otherwise.
