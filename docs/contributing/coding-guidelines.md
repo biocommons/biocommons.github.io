@@ -70,7 +70,6 @@ git tags in order to ensure that released software always corresponds to a git t
 
 - Branch, merge, and release strategy
 - Release process, including changelogs
-- https://gist.github.com/chalasr/fd195d83a0a01e4291a8
 - vscode setup: common extensions, devcontainers, formatters
 - sample coding session: issue, branch, code, test, format, push, request PR, merge
 - semantic release
