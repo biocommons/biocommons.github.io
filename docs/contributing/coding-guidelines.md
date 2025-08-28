@@ -25,7 +25,8 @@ consistently and coherently, and to facilitate contributors moving between proje
 
 - **Contributors should squash commits before submitting a PR if they wish to do so.**  Squash on PR
   merge is disabled because it leaves dangling branches, and because cleanup should be a contributor
-  responsibility.
+  responsibility. See tip below for how to squash a branch, including one that you've already
+  pushed.
 
 - **Strive for consistency** within and across projects unless you have a very good reason to do
   otherwise.
@@ -65,6 +66,20 @@ git tags in order to ensure that released software always corresponds to a git t
   passed down.  Env vars should typically not change behavior deep in a call stack. In no
   circumstance should an env var override an explicit setting higher in the stack. Debugging,
   logging, and other observability tooling are exceptions to this rule.
+
+## Tips
+
+### How can I easily squash commits on a branch before submitting a PR?
+
+  The general solution is to use `git rebase`, which replays commits on one branch onto another. Try
+  this:
+
+  ```
+  git checkout your-branch
+  git reset --soft main  # main is the parent branch name
+  git commit -m "Closes #42: A massive feature"
+  git push --force   # force is required if you've already pushed the branch
+  ```
 
 ---
 
