@@ -49,6 +49,7 @@ git tags in order to ensure that released software always corresponds to a git t
 - All source code is licensed under the Apache License, 2.0.
 
 - **Use existing case conventions**
+
   | Convention | Description | Examples |
   | :--- | :--- | :--- |
   | **`ALL_CAPS`** | Used for constants. | `PI`, `MAX_SIZE` |
