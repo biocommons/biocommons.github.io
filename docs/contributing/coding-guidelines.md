@@ -55,10 +55,10 @@ git tags in order to ensure that released software always corresponds to a git t
     | **`ALL_CAPS`** | Used for constants. | `PI`, `MAX_SIZE` |
     | **`snake_case`** | Used for functions, variables, and methods. | `my_function`, `my_variable` |
     | **`PascalCase`** | Used for class names. Abbreviations are kept all-caps. | `MyClass`, `RESTClient` |
-    | **_Single leading underscore** | Internal use only. Should not be accessed directly by other modules. | `_internal_variable` |
-    | **__Double leading underscore** | Name mangling. The name is automatically rewritten by the interpreter to avoid conflicts in subclasses. | `__private_variable` |
-    | **_Single trailing underscore** | To avoid conflict with Python keywords. | `class_` |
-    | **__Double leading and trailing underscores** | "Magic" or "dunder" methods. Indicate special methods or attributes in Python. | `__init__`, `__str__` |
+    | `_single_leading_us` | Entitu is for internal use only. Should not be accessed directly by other modules. | `_internal_variable`, `_logger` |
+    | `__double_leading_us` | Class quasi-private variable. The name is automatically rewritten by the interpreter to avoid conflicts in subclasses. | `__private_variable` |
+    | `single_trailing_us_` | To avoid conflict with Python keywords. | `class_`, `type_` |
+    | `__double_lead_and_trail_us__` | "Magic" or "dunder" methods. Indicate special methods or attributes in Python.  Rarely defined in bicommons.  | `__init__`, `__str__` |
 
 ## Python-specific guidelines
 
