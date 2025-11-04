@@ -2,10 +2,8 @@
 
 ## Setup
 
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -U pip setuptools
-    pip install -r requirements.txt
+    uv venv
+    uv pip install -r requirements.txt
 
 Also, you are strongly encouraged to use vscode to edit this site, with these extensions:
 

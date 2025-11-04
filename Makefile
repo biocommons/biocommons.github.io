@@ -7,10 +7,10 @@ default:
 	exit 1
 
 deploy:
-	mkdocs gh-deploy
+	uv run mkdocs gh-deploy
 
 serve:
-	mkdocs serve
+	uv run mkdocs serve
 
 tree: FORCE
 	tree docs >$@
@@ -19,6 +19,6 @@ update-redirect-map:
 	cd docs; ../bin/update-redirect-map
 
 check-links:
-	mkdocs build
+	uv run mkdocs build
 	./bin/check-relative-links site/**/*.html
 	

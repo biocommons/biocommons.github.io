@@ -3,6 +3,8 @@
 Looking to contribute? Great! Please read [Contributing](../contributing/index.md) for ways to help
 and guidelines for contributions.
 
+![Hackathon 2025 Attendees](hackathon-2025-attendees.jpg)
+
 ## Groups
 
 !!! info "Google groups are used to grant access to files, invite people to meetings, and, of course, for email distribution."
