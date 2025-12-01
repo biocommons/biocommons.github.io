@@ -64,5 +64,5 @@ manuscripts, and similar documents.
 
 <!-- Note to self: refresh link from https://biocommons.slack.com/admin/shared_invites -->
 Slack is the fastest way to get fast answers. [Join biocommons Slack
-workspace](https://join.slack.com/t/biocommons/shared_invite/zt-3c1doh2w6-r0SjEi0fOObi_pewD5LEvw),
+workspace](https://t.ly/join-biocommons-slack),
 then introduce yourself on #intros.
