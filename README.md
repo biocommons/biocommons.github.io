@@ -1,9 +1,12 @@
 # biocommons.org website
 
+**Note: As with other biocommons projects, you must have `uv` installed.**
+
 ## Setup
 
-    uv venv
-    uv pip install -r requirements.txt
+    uv sync
+
+### VS Code Extensions
 
 Also, you are strongly encouraged to use vscode to edit this site, with these extensions:
 
@@ -12,19 +15,9 @@ Also, you are strongly encouraged to use vscode to edit this site, with these ex
     - https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
     - https://marketplace.visualstudio.com/items?itemName=tomoyukim.vscode-mermaid-editor 
 
-If you want to add or edit diagrams, you must use the above configuration.
-
 ## Write
 
-    source venv/bin/activate
     make serve
-
-## Deploy
-
-Deployment is manual, not using GitHub actions.
-
-    source venv/bin/activate
-    make deploy
 
 ## Redirect map
 
