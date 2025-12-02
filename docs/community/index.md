@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome
 
 Looking to contribute? Great! Please read [Contributing](../contributing/index.md) for ways to help
 and guidelines for contributions.
@@ -8,23 +8,27 @@ and guidelines for contributions.
 ## Groups
 
 !!! info "Google groups are used to grant access to files, invite people to meetings, and, of
-course, for email distribution. "
+course, for email distribution."
 
 The following groups are publicly viewable without registration.
 
-* [biocommons-announce](https://groups.google.com/g/biocommons-announce)
-  Announcement-only list. Low-volume list primarily for announcements of new releases, meetings, and similar information.
+### For all users
 
-* [biocommons-users](https://groups.google.com/g/biocommons-users)
-  Discussion list for users to ask and answer questions about tools. This group was migrated from
-  the hgvs-discuss list, which is now obsolete.
+* [biocommons-announce](https://groups.google.com/g/biocommons-announce) Announcement-only list.
+  Low-volume list primarily for announcements of new releases, meetings, and similar information.
 
-* [biocommons-devs](https://groups.google.com/g/biocommons-devs)
-  Discussion list for developers of biocommons tools.
+* [biocommons-users](https://groups.google.com/g/biocommons-users) Discussion list for users to ask
+  and answer questions about using biocommons tools. This group was migrated from the hgvs-discuss
+  list, which is now obsolete.
 
-* [biocommons-maintainers](https://groups.google.com/g/biocommons-maintainers)
-  Discussion list for biocommons maintainers. Maintainers are automatically added and can post;
-  viewable (read-only) by everyone else.
+### For contributors
+
+* [biocommons-devs](https://groups.google.com/g/biocommons-devs) Discussion list for developers of
+  biocommons tools.  This is the place to get started as a developer.
+
+* [biocommons-maintainers](https://groups.google.com/g/biocommons-maintainers) Discussion list for
+  biocommons maintainers. Members of the GitHub maintainers team are added automatically and can
+  post.
 
 ## Meetings
 
