@@ -3,7 +3,6 @@
 !!! note inline end "Relationships among biocommons projects"
     (click to enlarge) ![biocommons projects](projects.drawio.svg){data-title="Relationships among biocommons projects" data-description="This diagram shows dependencies among biocommons and ga4gh projects. Arrows point from the dependent package to the dependency; dependency types are Python (blue), REST (yellow), or the PostgreSQL protocol libpq (red). Data distributions are shown as yellow cylinders."}
 
-
 ## Active projects
 
 - [anyvar](https://github.com/biocommons/anyvar) (alpha) is a proof-of-concept variation
@@ -88,14 +87,14 @@
   [![.github prs](https://img.shields.io/github/issues-pr/biocommons/.github?color=0088ff)](https://github.com/biocommons/.github/pulls)
   [![.github contributors](https://img.shields.io/github/contributors/biocommons/.github)](https://github.com/biocommons/.github/graphs/contributors)
 
-- [biocommons.example](https://github.com/biocommons/biocommons.example) This is our template repo
+- [python-package](https://github.com/biocommons/python-package) This is our template repo
   <br/>
-  [![biocommons.example pulse](images/pulse.png "biocommons.example pulse")](https://github.com/biocommons/biocommons.example/pulse/monthly)
-  [![biocommons.example stars](https://img.shields.io/github/stars/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example)
-  [![biocommons.example forks](https://img.shields.io/github/forks/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example)
-  [![biocommons.example issues](https://img.shields.io/github/issues/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example)
-  [![biocommons.example prs](https://img.shields.io/github/issues-pr/biocommons/biocommons.example?color=0088ff)](https://github.com/biocommons/biocommons.example/pulls)
-  [![biocommons.example contributors](https://img.shields.io/github/contributors/biocommons/biocommons.example)](https://github.com/biocommons/biocommons.example/graphs/contributors)
+  [![python-package pulse](images/pulse.png "python-package pulse")](https://github.com/biocommons/python-package/pulse/monthly)
+  [![python-package stars](https://img.shields.io/github/stars/biocommons/python-package)](https://github.com/biocommons/python-package)
+  [![python-package forks](https://img.shields.io/github/forks/biocommons/python-package)](https://github.com/biocommons/python-package)
+  [![python-package issues](https://img.shields.io/github/issues/biocommons/python-package)](https://github.com/biocommons/python-package)
+  [![python-package prs](https://img.shields.io/github/issues-pr/biocommons/python-package?color=0088ff)](https://github.com/biocommons/python-package/pulls)
+  [![python-package contributors](https://img.shields.io/github/contributors/biocommons/python-package)](https://github.com/biocommons/biocommons.example/graphs/contributors)
 
 
 ## Related external projects
