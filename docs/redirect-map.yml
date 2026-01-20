@@ -1,6 +1,7 @@
 community/code-of-conduct.md: null
 community/getting-connected.md: null
 community/governance.md: null
+community/index.md: null
 community/values.md: null
 contributing/coding-guidelines.md: null
 contributing/getting-started.md: null
@@ -13,5 +14,6 @@ gsoc2024/hgvs-eval#20.md: null
 gsoc2024/index.md: null
 hackathons/2023.md: null
 hackathons/2025.md: null
+hackathons/index.md: null
 index.md: null
 projects.md: null

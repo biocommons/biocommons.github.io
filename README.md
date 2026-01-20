@@ -24,4 +24,7 @@ Also, you are strongly encouraged to use vscode to edit this site, with these ex
 In order to ensure the continuity of urls, docs/redirect-map.yml tracks markdown file paths that
 have existed at any time.  Use `make update-redirect-map` to update the file, then manually copy
 selected redirects to mkdocs.yml in the redirect_map section.  (`mkdocs-redirects` does not
-currenlty support redirects from a file :-()
+currently support redirects from a file, but it's been requested in at least
+[#47](https://github.com/mkdocs/mkdocs-redirects/issues/47) and
+[#68](https://github.com/mkdocs/mkdocs-redirects/issues/68), and there's a long-ignored PR in
+[#57](https://github.com/mkdocs/mkdocs-redirects/pull/57))

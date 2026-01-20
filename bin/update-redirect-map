@@ -14,7 +14,7 @@ an-existing/path.md: None
 a-previously-existing/path.md: null
 ⇒ "Not found: a-previously-existing/path.md no longer exists"
 
-# If no one cares about that path, it can be commented out (or removed)
+# If no one cares about that path, it can be commented out
 # an-old-irrelevant/path.md was deleted and will not be redirected 
 #an-old-irrelevant/path.md: null
 

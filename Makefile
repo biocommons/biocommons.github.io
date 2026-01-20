@@ -19,7 +19,7 @@ tree: FORCE
 	tree docs >$@
 
 update-redirect-map:
-	cd docs; ../bin/update-redirect-map
+	cd docs; uv run ../bin/update-redirect-map
 
 check-links:
 	uv run mkdocs build
