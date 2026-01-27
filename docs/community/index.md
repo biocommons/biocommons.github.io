@@ -7,8 +7,9 @@ and guidelines for contributions.
 
 ## Groups
 
-!!! info "Google groups are used to grant access to files, invite people to meetings, and, of
-course, for email distribution."
+!!! info "Google Groups are central to Biocommons communications"
+
+    Google groups are used to grant access to files, invite people to meetings, and, of course, for email distribution.
 
 The following groups are publicly viewable without registration.
 

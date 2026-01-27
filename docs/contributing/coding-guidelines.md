@@ -81,6 +81,10 @@ git tags in order to ensure that released software always corresponds to a git t
 
 ## Tips
 
+### How can I checkout a branch on the command line?
+
+    gh issue develop 24 -c  # create branch for issue 24 and check it out 
+
 ### How can I easily squash commits on a branch before submitting a PR?
 
  The general solution is to use `git rebase`, which replays commits on one branch onto another. Try
