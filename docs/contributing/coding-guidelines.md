@@ -83,15 +83,16 @@ git tags in order to ensure that released software always corresponds to a git t
 
 ### How can I easily squash commits on a branch before submitting a PR?
 
-  The general solution is to use `git rebase`, which replays commits on one branch onto another. Try
-  this:
+ The general solution is to use `git rebase`, which replays commits on one branch onto another. Try
+ this:
 
-  ```
-  git checkout your-branch
-  git reset --soft main  # main is the parent branch name
-  git commit -m "Closes #42: A massive feature"
-  git push --force   # force is required if you've already pushed the branch
-  ```
+    git checkout your-branch
+    git reset --soft main  # main is the parent branch name
+    git commit -m "Closes #42: A massive feature"
+    git push --force-with-lease   # force is required if you've already pushed the branch
+
+Please use `--force-with-lease`, which provides additional checks to ensure that your branch is up
+to date. It will keep you from overwriting your colleague's changes.
 
 ---
 
