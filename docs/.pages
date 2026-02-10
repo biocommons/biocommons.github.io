@@ -4,4 +4,5 @@ nav:
     - community
     - contributing
     - hackathons
+    - "Architectural Decision Records": adrs
     - ...

@@ -1,36 +1,32 @@
 @font-face {
-    font-family: "Lato";
-    src: "https://fonts.googleapis.com/css?family=Lato";
+  font-family: "Lato";
+  src: "https://fonts.googleapis.com/css?family=Lato";
 }
-
 
 :root {
-    --md-text-font: "Lato";
+  --md-text-font: "Lato";
 }
 
-
 h2 {
-    color: #4051b5;
-    border-bottom: thin solid #4051b5;
+  color: #4051b5;
+  border-bottom: thin solid #4051b5;
 }
 
 h3 {
-    color: #00bda4;
+  color: #00bda4;
 }
 
-
 label.md-nav__title {
-    display: none
+  display: none;
 }
 
 .admonition-title {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
-.admonition>p {
-    font-size: 0.8rem;
+.admonition > p {
+  font-size: 0.8rem;
 }
-
 
 /* For image centering ideas, see
    https://dev.to/bdavidxyz/markdown-center-image-39j1 
@@ -39,18 +35,27 @@ label.md-nav__title {
    */
 
 img.center {
-    display: block;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 img.right {
-    float: right;
-    width: 50%
+  float: right;
+  width: 50%;
 }
 
 li.md-nav__item.md-nav__item--active {
-    padding: 0 !important;
+  padding: 0 !important;
+}
+
+ /* a[href^="http"]::after { */
+a[target="_blank"]:not(footer *)::after { 
+  font-family: "FontAwesome";
+  content: "\f08e" !important;
+  margin-left: 0.2em;
+  font-size: 0.8em;
+  vertical-align: super;
 }
