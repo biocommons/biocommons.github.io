@@ -81,28 +81,29 @@ git tags in order to ensure that released software always corresponds to a git t
 
 ## Tips
 
-### How can I checkout a branch on the command line?
+### How can I checkout a branch on the command line using the preferred branch name format?
 
-    gh issue develop 24 -c  # create branch for issue 24 and check it out 
+    » gh issue develop 24 -c   # create branch for issue 24 and check it out 
+    github.com/biocommons/biocommons.github.io/tree/24-create-adr-repo-and-template
 
 ### How can I easily squash commits on a branch before submitting a PR?
 
  The general solution is to use `git rebase`, which replays commits on one branch onto another. Try
  this:
 
-    git checkout your-branch
-    git reset --soft main  # main is the parent branch name
-    git commit -m "Closes #42: A massive feature"
-    git push --force-with-lease   # force is required if you've already pushed the branch
+    » git checkout your-branch
+    » git reset --soft main          # main is the parent branch name
+    » git commit -m "Closes #42: A massive feature (squashed commits for readability)"
+    » git push --force-with-lease    # force is required if you've already pushed the branch
 
-Please use `--force-with-lease`, which provides additional checks to ensure that your branch is up
+**Please use `--force-with-lease`**, which provides additional checks to ensure that your branch is up
 to date. It will keep you from overwriting your colleague's changes.
 
 ---
 
 ## Future Work: Topics to Write
 
-- Branch, merge, and release strategy
+- Branch, merge, and release strategy, with tradeoffs and considerations
 - Release process, including changelogs
 - vscode setup: common extensions, devcontainers, formatters
 - sample coding session: issue, branch, code, test, format, push, request PR, merge
