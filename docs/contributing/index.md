@@ -20,7 +20,7 @@ contribute code? No problem -- keep reading!
 
 See something that doesn't work the way you expect?  Ask about it on slack or a mailing list.  And,
 if you think it's a bug, report it in the project's issue tracker; see the [Projects
-page](../projects.md) for links.
+page](/projects/) for links.
 
 ### Foster a strong community: Triage issues, refine features, plan hackathons
 

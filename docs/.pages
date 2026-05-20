@@ -1,6 +1,6 @@
 nav:
     - Home: index.md
-    - projects.md
+    - projects
     - community
     - contributing
     - hackathons
