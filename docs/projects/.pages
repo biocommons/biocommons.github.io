@@ -1,5 +1,5 @@
 nav:
-    - overview.md
+    - Projects: index.md
     - issues.md
     - prs.md
     - contributors.md
