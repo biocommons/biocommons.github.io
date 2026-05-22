@@ -1,0 +1,5 @@
+nav:
+    - Projects: index.md
+    - issues.md
+    - prs.md
+    - contributors.md
