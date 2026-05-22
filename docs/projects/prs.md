@@ -1,6 +1,6 @@
 # Pull Request Metrics
 
-<iframe id="project-embed" src="http://localhost:3000/prs/" title="Pull Request Metrics" scrolling="no" style="width: 100%; height: 600px; border: none; display: block;"></iframe>
+<iframe id="project-embed" src="https://stats.biocommons.org/prs/" title="Pull Request Metrics" scrolling="no" style="width: 100%; height: 600px; border: none; display: block;"></iframe>
 
 <script>
 (function () {
