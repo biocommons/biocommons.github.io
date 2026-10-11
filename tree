@@ -2,37 +2,40 @@ docs
 ├── CNAME
 ├── community
 │   ├── code-of-conduct.md
-│   ├── getting-connected.md
-│   └── governance.md
+│   ├── governance.md
+│   └── index.md
 ├── contributing
 │   ├── coding-guidelines.md
-│   ├── getting-started.md
-│   └── tools.md
+│   └── index.md
 ├── files.md
 ├── hackathons
 │   ├── 2023.md
-│   └── 2025.md
+│   ├── 2025.md
+│   └── index.md
 ├── images
 │   ├── branching-model.mmd
 │   ├── branching-model.png
 │   ├── branching-strategy.drawio.svg
 │   ├── hackathon-2023-attendees.jpg
+│   ├── hackathon-2025-attendees.jpg
+│   ├── hackathon-2025-dinner.jpg
 │   ├── hackathon-2025-recommended-hotels.png
+│   ├── hackathon-2025-session.jpg
 │   ├── logo.ico
 │   ├── logo.svg
 │   ├── projects.drawio.svg
-│   ├── projects.png
 │   ├── pulse.png
 │   ├── pulse.svg
-│   ├── seqrepo.drawio.svg
-│   ├── seqrepo.erd
-│   ├── seqrepo.png
 │   └── ways-to-help.png
 ├── index.md
-├── projects.md
+├── projects
+│   ├── contributors.md
+│   ├── index.md
+│   ├── issues.md
+│   └── prs.md
+├── projects-old.md
 ├── redirect-map.yml
-├── redirect-map.yml~
 └── stylesheets
     └── extra.css
 
-6 directories, 30 files
+7 directories, 32 files
