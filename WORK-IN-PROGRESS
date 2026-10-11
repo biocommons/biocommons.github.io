@@ -1,0 +1,49 @@
+# Work in progress: Dependabot auto-approve + CI build gate
+
+## Goal
+
+Let Dependabot patch updates merge without human review, with guardrails:
+
+1. Auto-approve patch-level Dependabot PRs (minor updates keep auto-merge
+   but still need approval).
+2. Delay update proposals by a cooldown so compromised releases have time to
+   be yanked before Dependabot proposes them.
+3. Add a CI build check so auto-merge has something real to wait on.
+
+## Status
+
+Implemented, not deployed. Parked on this branch by choice (2026-10-11).
+
+- `.github/workflows/dependabot-automerge.yml`: added "Approve patch updates"
+  step (`gh pr review --approve` when update-type is semver-patch).
+- `.github/dependabot.yml`: added `cooldown: default-days: 3` to both the uv
+  and github-actions ecosystems.
+- `.github/workflows/build.yml`: new; runs
+  `uv run --locked mkdocs build --strict` on PRs and pushes to main.
+
+Verified locally: strict build passes, `uv.lock` is in sync, all YAML parses.
+Nothing has run on GitHub yet.
+
+## Required before merging (manual, GitHub settings)
+
+- Enable "Allow GitHub Actions to create and approve pull requests" (repo or
+  org). Without it the approve step fails. Note: this lets *any* workflow
+  approve PRs, not just this one.
+- Make the `build` check required in branch protection for `main`; otherwise
+  auto-merge doesn't wait for it.
+
+## Caveats / unverified
+
+- Not confirmed that Dependabot supports `cooldown` for the `uv` ecosystem.
+  If not, GitHub reports a config error after push.
+- Not confirmed that fetch-metadata v3 reports the highest update type for
+  grouped PRs (the `patch` groups bundle several bumps).
+- If `main` doesn't require a review, `--auto` already merges immediately
+  and the approve step adds nothing.
+- A required CODEOWNERS review is not satisfied by a bot approval.
+- Main residual risk: supply chain. Semver is the maintainer's claim, and
+  compromised releases often ship as patches. Mitigations not done here:
+  pin actions to commit SHAs.
+- `setup-uv@v6` matches other biocommons repos; Dependabot will bump it.
+
+Delete this file before merging.
