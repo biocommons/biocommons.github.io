@@ -54,3 +54,28 @@ img.right {
 li.md-nav__item.md-nav__item--active {
     padding: 0 !important;
 }
+/* status badge pinned to bottom of left nav panel (overrides/partials/nav.html)
+   Stretch the primary nav to the full sidebar height so the badge sits at the
+   bottom when the nav is short; sticky keeps it visible when the nav scrolls. */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  height: 100%;
+}
+.md-sidebar--primary .md-sidebar__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.md-sidebar--primary .md-nav--primary {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  margin-bottom: 0; /* Material's negative margin would overflow the panel */
+}
+.bc-nav-status {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  margin-top: auto;
+  padding: 0.6em 0.6rem;
+  background-color: var(--md-default-bg-color);
+}
